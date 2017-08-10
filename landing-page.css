@@ -1,29 +1,40 @@
 /*--------------------Menu & Header -----------------------------------*/
 header {
-  background-color:#F44336;
+  background-image: url("img/banner_poster.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
   color:#fff;
   height:500px;
-  margin-top: 0px;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 .affix {
-    top: 50px;
+    top: 25px;
     width: 100%;
 }
 .affix + .container-fluid {
     padding-top: 70px;
 }
 
+.affix + .fish-bowl {
+    padding-top: 50px;
+}
+
+
 .navbar {
   z-index: 99;
 }
 
 .fundx-header {
-  height: 50px;
-  background-color: gray;
+  position: fixed;
+  top: 0px;
+  height: 25px;
+  background-color: #222;
   width: 100%;
   z-index: 99;
-  position: sticky;
-  top: 0px;
+  text-align: center;
+  font-weight: 300;
 }
 
 /*--------------------Menu & Header -----------------------------------*/
@@ -35,7 +46,24 @@ header {
   background-size: cover;
   z-index: 0;
   height: 336px;
-  margin-top: 100px;
+  margin-top: 250px;
+}
+
+.fundx-banner {
+  background-color: rgba(1,56,120,.5);
+  position: relative;
+  top: 90%;
+  transform: translateY(-100%); }
+
+.fundx-banner h1 {
+  font-size: 5em;
+  font-weight: normal;
+  margin-left: 25px;
+}
+
+.fundx-banner h3 {
+  font-size: 3em;
+  margin-left: 25px;
 }
 
 /*-------------- Begin: for the 3 right-side panels -------------------*/
@@ -116,6 +144,7 @@ header {
   width: auto;
   height: auto;
   position: absolute;
+  padding: 10%;
   top: 0;
   bottom: 0;
   left: 0;

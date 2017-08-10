@@ -1,7 +1,9 @@
 $(document).ready(function(){
-    /* affix the navbar after scroll below header */
-    $(".navbar").affix({offset: {top: $("header").outerHeight(true) - 50} });
+    /* affix the navbar after scroll below header w space for fundx header */
+    $(".navbar").affix({offset: {top: $("header").outerHeight(true) - 25} });
 
-    /* affix the fundx header to the top of the window */
-    $(".fundx-header").affix({offset: {top: $("header").innerHeight(true)} });
+    /* affix the fish bowls after scroll below header + large spacer */
+
+    $(".fish-bowl").affix({offset: {top: $("header").outerHeight(true) - 25, bottom: 1275} });
+
 });
