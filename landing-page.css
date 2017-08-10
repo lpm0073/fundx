@@ -1,0 +1,191 @@
+/*--------------------Menu & Header -----------------------------------*/
+header {
+  background-color:#F44336;
+  color:#fff;
+  height:500px;
+  margin-top: 0px;
+}
+.affix {
+    top: 50px;
+    width: 100%;
+}
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.navbar {
+  z-index: 99;
+}
+
+.fundx-header {
+  height: 50px;
+  background-color: gray;
+  width: 100%;
+  z-index: 99;
+  position: sticky;
+  top: 0px;
+}
+
+/*--------------------Menu & Header -----------------------------------*/
+
+.fish-bowl {
+  background-image: url("img/fish-bowls.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  z-index: 0;
+  height: 336px;
+  margin-top: 100px;
+}
+
+/*-------------- Begin: for the 3 right-side panels -------------------*/
+
+.fundx-panel {
+  padding: 0px 0px 2px 15px;
+  height: 635px;
+  margin-top: 50px;
+}
+
+.fundx-panel h2 {
+  letter-spacing: -0.01em;
+  font-weight: 200;
+  margin-top: 0;
+  font-size: 4em;
+  line-height: 60px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.fundx-panel p {
+  font-size: 1.25em;
+  line-height: 24pxt;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: left;
+}
+
+.fundx-panel a {
+  color: red;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.fundx-panel a:hover {
+  font-weight: 500;
+}
+/*-------------- Begin: for the 3 right-side panels -------------------*/
+
+
+/*-------------- Begin: Invest today for a better tomorrow -------------------*/
+
+.fundx-bottom-fullwidth1 {
+  color: #f5f5f5;
+  background: #013878; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #013878, rgba(1,56,120, 0.80)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #013878, rgba(1,56,120, 0.80)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #013878, rgba(1,56,120, 0.80)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #013878, rgba(1,56,120, 0.80)); /* Standard syntax */
+}
+
+.fundx-bottom-fullwidth1 h2 {
+  letter-spacing: -0.01em;
+  font-weight: 200;
+  font-size: 56px;
+  line-height: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px 5px 2px 5px;
+  color: inherit;
+
+}
+.fundx-bottom-fullwidth1 p {
+  padding: 0 5px 2px 5px;
+  font-weight: 200;
+  font-size: 1.5em;
+  line-height: 34px;
+}
+
+.fundx-bottom-fullwidth1 img {
+  position: top;
+  float: right;
+  border-radius: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.fundx-bottom-fullwidth1-image-frame {
+  height: 350px; /*can be anything*/
+  width: 100%; /*can be anything*/
+  position: relative;
+}
+/*-------------- End: Invest today for a better tomorrow -------------------*/
+
+/*-------------- Begin: Get the Facts about SRIFX -------------------*/
+
+.fundx-bottom-fullwidth2 {
+  background-color: #fff;
+  min-height: 550px;
+  margin-top: 75px;
+  padding-left: 50px;
+
+}
+
+.fundx-bottom-fullwidth2 h2 {
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  margin-top: 0;
+  font-size: 56px;
+  line-height: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: inherit;
+
+}
+.fundx-bottom-fullwidth2 p {
+  padding: 0 5px 2px 5px;
+  font-weight: 200;
+  font-size: 1.5em;
+  line-height: 34px;
+}
+.fundx-bottom-fullwidth2 button {
+  margin-top: 25px;
+}
+
+.fundx-bottom-fullwidth2 img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10%;
+}
+
+.fundx-bottom-fullwidth2-image-frame {
+  height: 350px; /*can be anything*/
+  width: 100%; /*can be anything*/
+  position: relative;
+}
+/*-------------- End: Get the Facts about SRIFX -------------------*/
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+
+}
