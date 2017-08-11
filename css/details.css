@@ -1,0 +1,47 @@
+
+.detail-panel-section {
+  color: inherit;
+}
+
+.detail-panel-section p {
+  padding: 10px;
+}
+
+.detail-panel-section h3 {
+  margin: 0px;
+  padding: 0px;
+  color: inherit;
+}
+
+.detail-panel-section img {
+  max-height: 300px;
+}
+
+.panel-text {
+  padding: 25px;
+}
+
+.panel-label {
+  text-align: center;
+}
+
+.eco-gradient {
+	  height: 500px;
+	  background: #4E9D2D; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #4E9D2D, #52B02A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #4E9D2D, #52B02A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #4E9D2D, #52B02A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #4E9D2D, #52B02A); /* Standard syntax */
+    color: white;
+}
+
+.white-gradient {
+	  height: 500px;
+    background: #ffffff; browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #FFFFFF, #f1f1f1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #FFFFFF, #f1f1f1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #FFFFFF, #f1f1f1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #FFFFFF, #f1f1f1); /* Standard syntax */
+    color: inherit;
+
+}
