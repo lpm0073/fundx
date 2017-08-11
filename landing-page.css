@@ -1,120 +1,139 @@
 /*--------------------Menu & Header -----------------------------------*/
 header {
-  background-image: url("img/banner_poster.jpg");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-  color:#fff;
-  height:500px;
-  margin: 0px !important;
-  padding: 0px !important;
+background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/07/banner_poster.jpg");
+background-repeat: no-repeat;
+background-position: left top;
+background-size: cover;
+color:#fff;
+height:100vh;
+margin: 0px !important;
+padding: 0px !important;
 }
 
 nav {
-  border-radius: 0px !important;
+border-radius: 0px !important;
 }
 
-.affix {
-    top: 0px;
-    width: 100%;
+.navbar{
+  border: none;
+  border-radius: 0;
+  background-color: rgba(0,0,0,0.25);
 }
+
+
+.affix {
+  top: 0px;
+}
+
+.affix.navbar.navbar-inverse {
+  width: 100%;
+}
+
 .affix + .container-fluid {
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 .affix + .fish-bowl {
-    padding-top: 0px;
+  padding-top: 0px;
+}
+
+.affix.fish-bowl {
+width: 50%;
 }
 
 
 .navbar {
-  z-index: 99;
+z-index: 99;
 }
 
 .fundx-header {
-  position: fixed;
-  top: 0px;
-  height: 25px;
-  background-color: #222;
-  width: 100%;
-  z-index: 99;
-  text-align: center;
-  font-weight: 300;
+position: fixed;
+top: 0px;
+height: 25px;
+background-color: #222;
+width: 100%;
+z-index: 99;
+text-align: center;
+font-weight: 300;
 }
 
 /*--------------------Menu & Header -----------------------------------*/
 
 .fish-bowl-wrapper {
-  height:100vh;
-  background-color: yellow;
+height:100vh;
+padding-top: 15vh;
+padding-left: 0px !important;
+padding-right: 0px !important;
 }
 .fish-bowl {
-  background-image: url("img/fish-bowls.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-  z-index: 0;
-  height: 300px;
-  margin-top: 0px;
+background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/07/fish-bowls.png");
+background-repeat: no-repeat;
+background-position: left top;
+background-size: cover;
+z-index: 0;
+height: 300px;
+margin-top: 0px;
 }
 
 .fundx-banner {
-  background-color: rgba(1,56,120,.5);
-  position: relative;
-  top: 90%;
-  transform: translateY(-100%); }
+background-color: rgba(1,56,120,.5);
+position: relative;
+top: 70%;
+transform: translateY(-100%); }
 
 .fundx-banner h1 {
-  font-size: 5em;
-  font-weight: normal;
-  margin-left: 25px;
+color: white;
+font-size: 5em;
+font-weight: normal;
+margin-left: 25px;
 }
 
 .fundx-banner h3 {
-  font-size: 3em;
-  margin-left: 25px;
+color: white;
+font-size: 3em;
+margin-left: 25px;
 }
 
 /*-------------- Begin: for the 3 right-side panels -------------------*/
 
 .fundx-panel-spacer {
-  margin-top: 300px;
+margin-top: 300px;
 }
 
 .fundx-panel {
-  padding: 0px 0px 2px 15px;
-  height:100vh;
-  margin-top: 50px;
+padding: 0px 0px 2px 15px;
+height:100vh;
+margin-top: 50px;
 }
 
 .fundx-panel h2 {
-  letter-spacing: -0.01em;
-  font-weight: 200;
-  margin-top: 0;
-  font-size: 4em;
-  line-height: 60px;
-  margin-bottom: 10px;
-  text-align: left;
+letter-spacing: -0.01em;
+font-weight: 200;
+margin-top: 0;
+font-size: 4em;
+line-height: 60px;
+margin-bottom: 10px;
+text-align: left;
 }
 
 .fundx-panel p {
-  font-size: 1.25em;
-  line-height: 24pxt;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  text-align: left;
+font-size: 1.25em;
+line-height: 24pxt;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+text-align: left;
 }
 
 .fundx-panel a {
-  color: red;
-  font-size: 1em;
-  text-decoration: underline;
+color: red;
+font-size: 1em;
+text-decoration: underline;
 }
 
 .fundx-panel a:hover {
-  font-weight: 500;
+font-weight: 500;
 }
 /*-------------- Begin: for the 3 right-side panels -------------------*/
 
@@ -122,97 +141,97 @@ nav {
 /*-------------- Begin: Invest today for a better tomorrow -------------------*/
 
 .fundx-bottom-fullwidth1 {
-  color: #f5f5f5;
-  background: #013878; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #013878, rgba(1,56,120, 0.80)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #013878, rgba(1,56,120, 0.80)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #013878, rgba(1,56,120, 0.80)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #013878, rgba(1,56,120, 0.80)); /* Standard syntax */
+color: #f5f5f5;
+background: #013878; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(left top, #013878, rgba(1,56,120, 0.80)); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right, #013878, rgba(1,56,120, 0.80)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right, #013878, rgba(1,56,120, 0.80)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, #013878, rgba(1,56,120, 0.80)); /* Standard syntax */
 }
 
 .fundx-bottom-fullwidth1 h2 {
-  letter-spacing: -0.01em;
-  font-weight: 200;
-  font-size: 56px;
-  line-height: 60px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 10px 5px 2px 5px;
-  color: inherit;
+letter-spacing: -0.01em;
+font-weight: 200;
+font-size: 56px;
+line-height: 60px;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 10px 5px 2px 5px;
+color: inherit;
 
 }
 .fundx-bottom-fullwidth1 p {
-  padding: 0 5px 2px 5px;
-  font-weight: 200;
-  font-size: 1.5em;
-  line-height: 34px;
+padding: 0 5px 2px 5px;
+font-weight: 200;
+font-size: 1.5em;
+line-height: 34px;
 }
 
 .fundx-bottom-fullwidth1 img {
-  position: top;
-  float: right;
-  border-radius: 50%;
-  max-height: 100%;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  padding: 10%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+position: top;
+float: right;
+border-radius: 50%;
+max-height: 100%;
+max-width: 100%;
+width: auto;
+height: auto;
+position: absolute;
+padding: 10%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
 }
 
 .fundx-bottom-fullwidth1-image-frame {
-  height: 350px; /*can be anything*/
-  width: 100%; /*can be anything*/
-  position: relative;
+height: 350px; /*can be anything*/
+width: 100%; /*can be anything*/
+position: relative;
 }
 /*-------------- End: Invest today for a better tomorrow -------------------*/
 
 /*-------------- Begin: Get the Facts about SRIFX -------------------*/
 
 .fundx-bottom-fullwidth2 {
-  background-color: #fff;
-  min-height: 550px;
-  margin-top: 75px;
-  padding-left: 50px;
+background-color: #fff;
+min-height: 550px;
+margin-top: 75px;
+padding-left: 50px;
 
 }
 
 .fundx-bottom-fullwidth2 h2 {
-  letter-spacing: -0.01em;
-  font-weight: 500;
-  margin-top: 0;
-  font-size: 56px;
-  line-height: 60px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  color: inherit;
+letter-spacing: -0.01em;
+font-weight: 500;
+margin-top: 0;
+font-size: 56px;
+line-height: 60px;
+margin-top: 50px;
+margin-bottom: 50px;
+color: inherit;
 
 }
 .fundx-bottom-fullwidth2 p {
-  padding: 0 5px 2px 5px;
-  font-weight: 200;
-  font-size: 1.5em;
-  line-height: 34px;
+padding: 0 5px 2px 5px;
+font-weight: 200;
+font-size: 1.5em;
+line-height: 34px;
 }
 .fundx-bottom-fullwidth2 button {
-  margin-top: 25px;
+margin-top: 25px;
 }
 
 .fundx-bottom-fullwidth2 img {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 10%;
+max-width: 100%;
+max-height: 100%;
+padding: 10%;
 }
 
 .fundx-bottom-fullwidth2-image-frame {
-  height: 350px; /*can be anything*/
-  width: 100%; /*can be anything*/
-  position: relative;
+height: 350px; /*can be anything*/
+width: 100%; /*can be anything*/
+position: relative;
 }
 /*-------------- End: Get the Facts about SRIFX -------------------*/
 

@@ -19,19 +19,37 @@
   </div>
 </header>
 
+
 <nav class="navbar navbar-inverse">
-  <ul class="nav navbar-nav">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Team</a></li>
-    <li><a href="#">Research</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
+
 
 <div class="container-fluid">
 
   <div class="row row-eq-height">
-    <div class="fish-bowl-wrapper"><div class="col-xs-12 col-sm-6 fish-bowl"></div></div>
+    <div class="col-xs-6 col-sm-6 fish-bowl-wrapper">
+      <div class="fish-bowl">
+      </div>
+    </div>
     <div class="col-xs-6 col-sm-6 pull-right" >
       <section id="panel1">
         <div class="fundx-panel">
@@ -58,7 +76,7 @@
           <p>Sustainable investing has been around for decades, and so has FundX Investment Group, managers of the FundX Sustainable Impact Fund (SRIFX).</p>
           <p>FundX is a woman-led investment company that has been managing fund portfolios for clients and foundations since 1969.</p>
           <p>SRIFX integrates environmental, social and governance (ESG) criteria into FundX’s time-tested Upgrading strategy to help investors like you try to build wealth, navigate changing markets and make a difference.</p>
-          <a href="#" target="_self">Learn more about SRIFX ›</a>
+          <a class="release-fish-bowls" href="#" target="_self">Learn more about SRIFX ›</a>
         </div>
       </section>
 
