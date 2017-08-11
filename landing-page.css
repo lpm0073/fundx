@@ -9,8 +9,13 @@ header {
   margin: 0px !important;
   padding: 0px !important;
 }
+
+nav {
+  border-radius: 0px !important;
+}
+
 .affix {
-    top: 25px;
+    top: 0px;
     width: 100%;
 }
 .affix + .container-fluid {
@@ -18,7 +23,7 @@ header {
 }
 
 .affix + .fish-bowl {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 
@@ -39,14 +44,18 @@ header {
 
 /*--------------------Menu & Header -----------------------------------*/
 
+.fish-bowl-wrapper {
+  height:100vh;
+  background-color: yellow;
+}
 .fish-bowl {
   background-image: url("img/fish-bowls.png");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
   z-index: 0;
-  height: 336px;
-  margin-top: 250px;
+  height: 300px;
+  margin-top: 0px;
 }
 
 .fundx-banner {
@@ -68,9 +77,13 @@ header {
 
 /*-------------- Begin: for the 3 right-side panels -------------------*/
 
+.fundx-panel-spacer {
+  margin-top: 300px;
+}
+
 .fundx-panel {
   padding: 0px 0px 2px 15px;
-  height: 635px;
+  height:100vh;
   margin-top: 50px;
 }
 
