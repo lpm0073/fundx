@@ -1,3 +1,26 @@
+/*-------------------- Page overrides  -----------------------------------*/
+.container-fluid {
+  padding: 0px;
+}
+/*
+[class^="col-"] {
+  padding: 0px !important;
+}
+*/
+
+/* this is a hack to force bootstrap columns to maintain equal height */
+.row.match-column-height {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.row.match-column-height [class*="col-"]{
+  display: flex;
+  flex-direction: column;
+}
+
+/*-------------------- Page overrides  -----------------------------------*/
+
 /*--------------------Menu & Header -----------------------------------*/
 
 nav {
@@ -144,6 +167,8 @@ font-weight: 500;
 /*-------------- Begin: Invest today for a better tomorrow -------------------*/
 
 .fundx-bottom-fullwidth1 {
+padding: 0px !important;
+margin: 0px !important;
 color: #f5f5f5;
 background: #013878; /* For browsers that do not support gradients */
 background: -webkit-linear-gradient(left top, #013878, rgba(1,56,120, 0.80)); /* For Safari 5.1 to 6.0 */
@@ -170,28 +195,25 @@ font-size: 1.5em;
 line-height: 34px;
 }
 
-.fundx-bottom-fullwidth1-image-frame {
-height: 350px; /*can be anything*/
-width: 100%; /*can be anything*/
-position: relative;
+.fundx-bottom-fullwidth1-text {
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
 }
 
-.fundx-bottom-fullwidth1 img {
-position: top;
-float: right;
-border-radius: 50%;
-max-height: 100%;
-max-width: 100%;
-width: auto;
-height: auto;
-position: absolute;
-padding: 10%;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;
+.fundx-bottom-fullwidth1-image-frame {
+  padding: 0px !important;
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/invest-today-for-better-tommorrow.jpg");
+  background-size: auto;
+  background-position: center center;
+  background-clip: border-box;
+  overflow: hidden;
+  margin: 0;
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
 }
+
 
 /*-------------- End: Invest today for a better tomorrow -------------------*/
 
@@ -227,8 +249,8 @@ margin-top: 25px;
 }
 
 .fundx-bottom-fullwidth2-image-frame {
-height: 350px; /*can be anything*/
-width: 100%; /*can be anything*/
+height: 350px;
+width: 90%;
 position: relative;
 }
 
