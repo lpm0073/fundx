@@ -1,14 +1,4 @@
 /*--------------------Menu & Header -----------------------------------*/
-header {
-background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/07/banner_poster.jpg");
-background-repeat: no-repeat;
-background-position: left top;
-background-size: cover;
-color:#fff;
-height:100vh;
-margin: 0px !important;
-padding: 0px !important;
-}
 
 nav {
 border-radius: 0px !important;
@@ -59,23 +49,18 @@ font-weight: 300;
 
 /*--------------------Menu & Header -----------------------------------*/
 
-.fish-bowl-wrapper {
-height:100vh;
-padding-top: 15vh;
-padding-left: 0px !important;
-padding-right: 0px !important;
-}
-.fish-bowl {
-background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/07/fish-bowls.png");
+.fundx-banner {
+background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/07/banner_poster.jpg");
 background-repeat: no-repeat;
 background-position: left top;
 background-size: cover;
-z-index: 0;
-height: 300px;
-margin-top: 0px;
+color:#fff;
+height:100vh;
+margin: 0px !important;
+padding: 0px !important;
 }
 
-.fundx-banner {
+.fundx-banner-stripe {
 background-color: rgba(1,56,120,.5);
 position: relative;
 top: 70%;
@@ -93,6 +78,24 @@ color: white;
 font-size: 3em;
 margin-left: 25px;
 }
+
+
+.fish-bowl-wrapper {
+height:100vh;
+padding-top: 15vh;
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+.fish-bowl {
+background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/07/fish-bowls.png");
+background-repeat: no-repeat;
+background-position: left top;
+background-size: cover;
+z-index: 0;
+height: 300px;
+margin-top: 0px;
+}
+
 
 /*-------------- Begin: for the 3 right-side panels -------------------*/
 
@@ -167,6 +170,12 @@ font-size: 1.5em;
 line-height: 34px;
 }
 
+.fundx-bottom-fullwidth1-image-frame {
+height: 350px; /*can be anything*/
+width: 100%; /*can be anything*/
+position: relative;
+}
+
 .fundx-bottom-fullwidth1 img {
 position: top;
 float: right;
@@ -184,11 +193,6 @@ right: 0;
 margin: auto;
 }
 
-.fundx-bottom-fullwidth1-image-frame {
-height: 350px; /*can be anything*/
-width: 100%; /*can be anything*/
-position: relative;
-}
 /*-------------- End: Invest today for a better tomorrow -------------------*/
 
 /*-------------- Begin: Get the Facts about SRIFX -------------------*/
@@ -222,17 +226,18 @@ line-height: 34px;
 margin-top: 25px;
 }
 
+.fundx-bottom-fullwidth2-image-frame {
+height: 350px; /*can be anything*/
+width: 100%; /*can be anything*/
+position: relative;
+}
+
 .fundx-bottom-fullwidth2 img {
 max-width: 100%;
 max-height: 100%;
 padding: 10%;
 }
 
-.fundx-bottom-fullwidth2-image-frame {
-height: 350px; /*can be anything*/
-width: 100%; /*can be anything*/
-position: relative;
-}
 /*-------------- End: Get the Facts about SRIFX -------------------*/
 
 /********** Medium devices only **********/
