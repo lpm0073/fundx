@@ -1,9 +1,25 @@
-
-
-.about-panel-2-image {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/investment-annual-report-20516653.jpg");
+.fundx-banner {
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/forest-banner.jpeg");
+  background-position: center center !important;
+  height: 50vh !important;
 }
 
-.about-panel-4-image {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/investment-annual-report-20516653.jpg");
+
+#banner-image-layer {
+  height: 50vh;
+  background-color: rgba(0,0,0, .2) !important;
+}
+
+.panel-3-image {
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/financial-reports-in-kitchen.jpg");
+  background-position: top center;
+  height: 50vh !important;
+  background-size: cover !important;
+}
+
+.panel-5-image {
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/financial-reports-in-kitchen2.jpg");
+  background-position: top center;
+  height: 50vh !important;
+  background-size: cover !important;
 }

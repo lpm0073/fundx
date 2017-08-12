@@ -1,16 +1,42 @@
+.container-fluid {
+
+}
+
 .fundx-panel-full-height {
   height: 100vh;
 }
 
+.fundx-panel-half-height {
+  height: 50vh;
+}
+
+
 .fundx-banner {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/parallax-bg-3.jpg");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-  color:#fff;
-  height:100vh;
-  margin: 0px !important;
   padding: 0px !important;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  background-clip: border-box;
+  overflow: hidden;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  height:100vh;
+  color:#fff;
+}
+
+.fundx-banner div {
+    color: white;
+    padding: 25px;
+}
+
+.fundx-banner h2 {
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.fundx-banner h3 {
+  font-size: 3em;
+  font-weight: 300;
 }
 
 
