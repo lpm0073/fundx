@@ -1,11 +1,13 @@
 
 .fundx-banner {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/children-banner.jpg");
   background-size: cover !important;
-
   height: 50vh !important;
-
 }
+
+
+#banner {
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/children-banner.jpg");
+  }
 
 #banner-image-layer {
   height: 50vh;
@@ -14,28 +16,23 @@
 }
 
 
-.how2invest-panel-2-image {
+#panel-2-image {
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/intelligent-building-banner.jpg");
   height: 50vh !important;
   background-size: cover !important;
 }
 
-.how2invest-panel-4-image {
+#panel4 {
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/ocean-banner.jpg");
   height: 50vh !important;
   background-size: cover !important;
-  -webkit-filter: blur(0px);
-   -moz-filter: blur(0px);
-   -o-filter: blur(0px);
-   -ms-filter: blur(0px);
-   filter: blur(0px);
-}
-
-#panel4 {
   color: white;
 }
 
 #panel4-image-layer {
   height: 50vh;
-  background-color: rgba(0,0,0, .2) !important;
+  background-color: rgba(0,0,0, .35) !important;
+  margin: inherit;
+  padding-left: -15px;
+  padding-right: -15px;
 }

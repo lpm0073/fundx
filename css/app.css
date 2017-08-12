@@ -1,5 +1,8 @@
-.container-fluid {
-
+.editor-note {
+  color: red !important;
+  background-color: yellow !important;
+  font-style: italic !important;
+  font-weight: bold !important;
 }
 
 .fundx-panel-full-height {
@@ -30,11 +33,13 @@
 }
 
 .fundx-banner h2 {
+  color: white;
   font-size: 4em;
   font-weight: 400;
 }
 
 .fundx-banner h3 {
+  color: white;
   font-size: 3em;
   font-weight: 300;
 }
@@ -51,6 +56,13 @@
   height: 100vh;
 }
 
+.fundx-text-white {
+  color: white !important;
+}
+
+.fundx-text-normal {
+  color: #555;
+}
 
 .fundx-panel-section {
   color: inherit;
@@ -58,12 +70,19 @@
 
 .fundx-panel-section p {
   padding: 10px;
+  color: inherit;
+  font-family: inherit;
+  font-style:normal;
+  font-weight: inherit;
 }
 
 .fundx-panel-section h3 {
   margin: 0px;
   padding: 0px;
   color: inherit;
+  font-family: inherit;
+  font-style:normal;
+  font-weight: inherit;
 }
 
 .fundx-panel-section img {
