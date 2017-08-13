@@ -10,6 +10,11 @@
   height: 100vh;
 }
 
+.fundx-panel-threequarter-height {
+  height: 75vh;
+}
+
+
 .fundx-panel-half-height {
   height: 50vh;
 }

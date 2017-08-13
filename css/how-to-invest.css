@@ -1,3 +1,25 @@
+/* The animation code */
+@keyframes fade-in {
+    from {
+      color: #4E9D2D;
+      -ms-transform: translate(-75px, 0px); /* IE 9 */
+      -webkit-transform: translate(-75px, 0px); /* Safari */
+      transform: translate(-75px, 0px);
+    }
+    to {
+      color: white;
+      -ms-transform: translate(0px, 0px); /* IE 9 */
+      -webkit-transform: translate(0px, 0px); /* Safari */
+      transform: translate(0px, 0px);
+    }
+}
+
+#banner-text {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
 
 .fundx-banner {
   background-size: cover !important;
@@ -5,29 +27,24 @@
 }
 
 .fundx-doc-box {
-
+  border: 1px solid #aaa;
 }
 
 .fundx-doc-box:hover {
-  box-shadow: 0 1px 5px 1px #ddd;
-  border: 2px solid #eee;
-  border-radius: 2px;
-}
-
-#banner {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/children-banner.jpg");
-  }
-
-#banner-image-layer {
-  height: 50vh;
-  background-color: rgba(0,0,0, .35) !important;
-  margin: inherit;
+  box-shadow: 0 1px 7px 1px #bbb;
+  border: 1px solid #eee;
 }
 
 
-#panel-2-image {
+#panel1-image {
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/man-computer-xlarge.jpg");
+  height: 50vh !important;
+  background-size: cover !important;
+}
+
+#panel2-image {
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/financial-reports-in-kitchen2.jpg");
-  height: 100vh !important;
+  height: 75vh !important;
   background-size: cover !important;
 }
 
