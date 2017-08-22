@@ -1,14 +1,39 @@
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.row {
+  border: 1px dashed red;
+}
 .fundx-banner {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/forest-banner.jpeg");
-  background-position: center center !important;
-  height: 50vh !important;
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png");
+  height: 70vh !important;
+  color: black !important;
 }
 
-
+.section-about {
+}
 
 #banner-image-layer {
-  height: 50vh;
-  background-color: rgba(0,0,0, .2) !important;
+  margin-top: 10%;
+  text-align: center;
+}
+
+#banner-image-layer h2, #banner-image-layer h3{
+  color: #006098 !important;
+}
+
+#banner-image-layer p {
+  color: black !important;
+}
+
+#banner-image-layer h3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.about-panel-white {
+  color: white !important;
 }
 
 .panel-3-image {
@@ -23,4 +48,46 @@
   background-position: top center;
   height: 50vh !important;
   background-size: cover !important;
+}
+
+.morningstart-gradient-forinvestors {
+  background: -webkit-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
+    background: -o-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#006199, endColorstr= #ffffff);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#006199, endColorStr= #ffffff);
+    background: -ms-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
+    background: -moz-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
+    background: linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff); opacity: 0.9;
+}
+
+.morningstart-gradient-foradvisors {
+  background: -webkit-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
+      background: -o-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
+      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#00776e, endColorstr= #ffffff);
+      -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#00776e, endColorStr= #ffffff);
+      background: -ms-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
+      background: -moz-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
+      background: linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff); opacity: 0.9;
+
+}
+
+.morningstart-gradient-for-assetmanagers {
+  background: -webkit-linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff );
+    background: -o-linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff );
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr= #2daf71, endColorstr= #ffffff );
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor= #2daf71, endColorStr= #ffffff );
+    background: -ms-linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff );
+    background: -moz-linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff );
+    background: linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff ); opacity: 0.9;
+
+}
+
+.morningstart-gradient-many-dimensions {
+  background: -webkit-linear-gradient(#df0e40, #fc5516);
+    background: -o-linear-gradient(#df0e40, #fc5516);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#df0e40, endColorstr=#fc5516);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#df0e40, endColorStr=#fc5516);
+    background: -ms-linear-gradient(#df0e40, #fc5516);
+    background: -moz-linear-gradient(#df0e40, #fc5516);
+    background: linear-gradient(#df0e40, #fc5516); opacity: 0.9;
 }

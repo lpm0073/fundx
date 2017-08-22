@@ -1,10 +1,15 @@
 
 .editor-note {
-  color: red !important;
-  background-color: yellow !important;
+  color: DarkSeaGreen  !important;
   font-style: italic !important;
   font-weight: bold !important;
+  text-align: center;
 }
+
+.editor-red-border {
+  border: 1px dashed red;
+}
+
 
 .fundx-panel-full-height {
   height: 100vh;
