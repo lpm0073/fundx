@@ -77,6 +77,41 @@ text-align: left;
 }
 
 /*----------------------------------------------------------*/
+
+.get-the-facts {
+  padding: 5%;
+  color: #f1f1f1;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.get-the-facts h3 {
+  margin-top: 0px !important;
+  font-size: 56px;
+  font-weight: 100;
+}
+
+.get-the-facts p {
+  font-size: 20px !important;
+  font-weight: 300;
+  text-align: justify;
+  padding-left: 0px !important;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.get-the-facts button {
+  margin-top: 7.5%;
+}
+
+.get-the-facts img {
+  height: 50vh;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*----------------------------------------------------------*/
 #banner {
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png");
   height: 80vh !important;
