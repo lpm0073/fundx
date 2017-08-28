@@ -15,6 +15,8 @@
 #banner-image-layer {
   margin-top: 10%;
   text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #banner-image-layer h2, #banner-image-layer h3{
@@ -99,6 +101,7 @@ text-align: left;
   margin-top: 8%;
   font-size: 36px;
   font-weight: 100;
+  text-transform: none !important;
 }
 
 .gradient-blue {
@@ -254,37 +257,105 @@ text-align: left;
            animation: fadein 2s;
 }
 
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
 
-/*
-.morningstart-gradient-foradvisors {
-  background: -webkit-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
-      background: -o-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
-      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#00776e, endColorstr= #ffffff);
-      -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#00776e, endColorStr= #ffffff);
-      background: -ms-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
-      background: -moz-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
-      background: linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff); opacity: 0.9;
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
 
 }
 
-.morningstart-gradient-for-assetmanagers {
-  background: -webkit-linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff );
-    background: -o-linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff );
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr= #2daf71, endColorstr= #ffffff );
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor= #2daf71, endColorStr= #ffffff );
-    background: -ms-linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff );
-    background: -moz-linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff );
-    background: linear-gradient( #2daf71, #3cb3c9, #ffffff, #ffffff, #ffffff ); opacity: 0.9;
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
 
 }
 
-.morningstart-gradient-many-dimensions {
-  background: -webkit-linear-gradient(#df0e40, #fc5516);
-    background: -o-linear-gradient(#df0e40, #fc5516);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#df0e40, endColorstr=#fc5516);
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#df0e40, endColorStr=#fc5516);
-    background: -ms-linear-gradient(#df0e40, #fc5516);
-    background: -moz-linear-gradient(#df0e40, #fc5516);
-    background: linear-gradient(#df0e40, #fc5516); opacity: 0.9;
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  #banner-image-layer h2 {
+    font-size: 64px;
+  }
+
+  #banner-image-layer h3 {
+    font-size: 28px;
+    margin-top: 20% !important;
+  }
+
+  .middle-panel-header h5 {
+    font-size: 16px !important;
+  }
+  .middle-panel-header h6 {
+    font-size: 18px !important;
+    text-align: justify;
+    padding: 5%;
+  }
+
+  #panel1a {
+    height: 10vh !important;
+  }
+
+  #panel1b-left {
+    height: 55vh !important;
+  }
+  #panel1b-left {
+    height: 60vh !important;
+  }
+
+  #panel1c-left {
+    height: 72.5vh !important;
+  }
+  #panel1c-right {
+    height: 0vh !important;
+  }
+
+  #panel4 {
+    float: left !important;
+    height: 50vh !important;
+  }
+
+  #panel4-image {
+    visibility: hidden !important;
+    height: 0px;
+    width: 0px;
+  }
+  .get-the-facts h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .get-the-facts p {
+    font-size: 18px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 5% !important;
+  }
+
+  .get-the-facts button {
+    margin-top: 20% !important;
+    margin:0 auto;
+    display:block;
+  }
+
+
 }
-*/
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+  #banner-image-layer h2 {
+    font-size: 64px;
+  }
+
+  #banner-image-layer h3 {
+    font-size: 20px;
+  }
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
