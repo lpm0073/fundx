@@ -4,6 +4,39 @@
 }
 
 /*----------------------------------------------------------*/
+#banner {
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png");
+  height: 80vh !important;
+  color: black !important;
+}
+
+#banner-image-layer {
+  margin-top: 10%;
+  text-align: center;
+}
+
+#banner-image-layer h2, #banner-image-layer h3{
+  color: #006098 !important;
+}
+
+#banner-image-layer h2 {
+  margin-top: 7.5%;
+  margin-bottom: 7.5%;
+  font-size: 84px;
+  font-weight: 300;
+}
+
+#banner-image-layer h3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+
+/*----------------------------------------------------------*/
+
+
 .middle-panel h2 {
 letter-spacing: -0.01em;
 font-weight: 200;
@@ -112,43 +145,75 @@ text-align: left;
 }
 
 /*----------------------------------------------------------*/
-#banner {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png");
-  height: 80vh !important;
-  color: black !important;
+.invest-today {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  margin-top: 3% !important;
 }
 
-#banner-image-layer {
-  margin-top: 10%;
-  text-align: center;
+.invest-today h3 {
+  margin-top: 0px !important;
+  font-size: 42px;
+  font-weight: 800;
 }
 
-#banner-image-layer h2, #banner-image-layer h3{
-  color: #006098 !important;
+.invest-today p {
+  text-align: justify;
+  padding-top: 2.5% !important;
+  padding-left: 0% !important;
 }
 
-#banner-image-layer h2 {
-  margin-top: 7.5%;
-  margin-bottom: 7.5%;
-  font-size: 84px;
-  font-weight: 300;
+.invest-today button {
+  margin-top: 5% !important;
 }
 
-#banner-image-layer h3 {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-size: 32px;
-  font-weight: 400;
-}
-
-
-/*----------------------------------------------------------*/
-
-.panel-5-image {
+.invest-today-image {
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/financial-reports-in-kitchen2.jpg");
   background-position: top center;
   height: 50vh !important;
   background-size: cover !important;
+}
+
+/*----------------------- Animations -----------------------------------*/
+@keyframes slide-from-left {
+    from {
+      -ms-transform: translate(-50px, 0px); /* IE 9 */
+      -webkit-transform: translate(-50px, 0px); /* Safari */
+      transform: translate(-50px, 0px);
+    }
+    to {
+      -ms-transform: translate(0px, 0px); /* IE 9 */
+      -webkit-transform: translate(0px, 0px); /* Safari */
+      transform: translate(0px, 0px);
+    }
+}
+
+@keyframes slide-from-right {
+    from {
+      -ms-transform: translate(50px, 0px); /* IE 9 */
+      -webkit-transform: translate(50px, 0px); /* Safari */
+      transform: translate(50px, 0px);
+    }
+    to {
+      -ms-transform: translate(0px, 0px); /* IE 9 */
+      -webkit-transform: translate(0px, 0px); /* Safari */
+      transform: translate(0px, 0px);
+    }
+}
+
+
+.slide-from-right {
+  animation-name: slide-from-right;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
+.slide-from-left {
+  animation-name: slide-from-left;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
 }
 
 
