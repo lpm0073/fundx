@@ -1,42 +1,22 @@
+h4 {
+    font-size: 32px !important;
+    font-weight: 200 !important;
+    color: #4E9D2D !important;
+    margin-bottom: 25px !important;
+}
+
 .container-fluid {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 .row {
-  border: 1px dashed red;
+
 }
 .fundx-banner {
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png");
   height: 80vh !important;
   color: black !important;
 }
-
-.fundx-about {
-  color: inherit;
-}
-
-.fundx-about p {
-  padding: 10px;
-  color: inherit;
-  font-family: inherit;
-  font-style:normal;
-  font-weight: inherit;
-}
-
-.fundx-about h3 {
-  margin-top: 1%;
-  margin-bottom: 5%;
-  padding: 0px;
-  color: inherit;
-  font-family: inherit;
-  font-style:normal;
-  font-weight: 300;
-  text-align: center;
-}
-
-.fundx-about img {
-}
-
 
 #banner-image-layer {
   margin-top: 10%;

@@ -1,15 +1,29 @@
+.fundx-green {
+  color: #4E9D2D !important;
+}
+
+.fundx-aquamarine {
+  color: #3586A2 !important;
+}
+
+.fundx-blue {
+  color: #013878 !important;
+}
 
 .editor-note {
-  color: DarkSeaGreen  !important;
+  color: orange  !important;
   font-style: italic !important;
   font-weight: bold !important;
   text-align: center;
 }
 
-.editor-red-border {
-  border: 1px dashed red;
+.editor-border {
+  border: .5px dashed gray;
 }
 
+.fundx-panel-quarter-height {
+  height: 25vh;
+}
 
 .fundx-panel-full-height {
   height: 100vh;
