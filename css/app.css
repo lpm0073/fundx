@@ -18,7 +18,9 @@
 }
 
 .editor-border {
+  /*
   border: .5px dashed rgba(255, 0, 0, .15);
+  */
 }
 
 .quarter-height {
@@ -31,6 +33,10 @@
 
 .full-height {
   height: 100vh;
+}
+
+.twothird-height {
+  height: 67vh;
 }
 
 .threequarter-height {

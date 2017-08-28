@@ -14,25 +14,43 @@ margin-bottom: 10px;
 text-align: left;
 }
 
-.middle-panel h3, p {
-  padding-left: 7.5% !important;
-  padding-right: 7.5% !important;
+.middle-panel h3, h4, p {
+  padding-left: 12% !important;
+  padding-right: 12% !important;
 
 }
 .middle-panel h3 {
-    font-size: 36px !important;
+    text-align: center !important;
+    font-size: 38px !important;
     line-height: 40px !important;
     font-weight: 200 !important;
     margin-bottom: 25px !important;
+    letter-spacing: 0px !important;
+}
+
+.middle-panel h4 {
+  text-align: center !important;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .middle-panel p {
   text-align: justify !important;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.middle-panel img {
+  height: 25vh;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .middle-panel-header {
-  text-align: center;
-  color: white;
+  text-align: center !important;
+  color: white !important;
 }
 .middle-panel-header h5 {
   margin-top: 2.5%;
@@ -43,19 +61,19 @@ text-align: left;
 
 }
 .middle-panel-header h6 {
-  margin-top: 10%;
+  margin-top: 8%;
   font-size: 36px;
   font-weight: 100;
 }
 
 .gradient-blue {
-  background: -webkit-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff);
-    background: -o-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff);
+  background: -webkit-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
+    background: -o-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#006199, endColorstr= #ffffff);
     -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#006199, endColorStr= #ffffff);
-    background: -ms-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff);
-    background: -moz-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff);
-    background: linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff); opacity: 0.9;
+    background: -ms-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
+    background: -moz-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
+    background: linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff); opacity: 0.9;
 }
 
 /*----------------------------------------------------------*/
