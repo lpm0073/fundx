@@ -20,3 +20,7 @@ $(".animate-from-right").inViewport(function(px){
 $(".animate-from-left").inViewport(function(px){
     if(px) $(this).addClass("slide-from-left") ;
 });
+
+$(".animate-fade-in").inViewport(function(px){
+    if(px) $(this).addClass("fade-in") ;
+});
