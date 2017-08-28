@@ -72,6 +72,8 @@ text-align: left;
 }
 
 .middle-panel p {
+  margin: 0 0 10px !important;
+  line-height: 1.42857143 !important;
   text-align: justify !important;
   font-size: 18px;
   font-weight: 300;
@@ -273,6 +275,10 @@ text-align: left;
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+  #banner {
+    height: 60vh !important;
+  }
+
   #banner-image-layer h2 {
     font-size: 64px;
   }
@@ -303,7 +309,7 @@ text-align: left;
   }
 
   #panel1c-left {
-    height: 72.5vh !important;
+    height: 80vh !important;
   }
   #panel1c-right {
     height: 0vh !important;
@@ -333,7 +339,7 @@ text-align: left;
   }
 
   .get-the-facts button {
-    margin-top: 20% !important;
+    margin-top: 10% !important;
     margin:0 auto;
     display:block;
   }
