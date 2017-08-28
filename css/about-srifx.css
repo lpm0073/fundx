@@ -1,18 +1,65 @@
-h4 {
-    font-size: 32px !important;
-    font-weight: 200 !important;
-    color: #4E9D2D !important;
-    margin-bottom: 25px !important;
-}
-
 .container-fluid {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-.row {
+
+/*----------------------------------------------------------*/
+.middle-panel h2 {
+letter-spacing: -0.01em;
+font-weight: 200;
+margin-top: 0;
+font-size: 4em;
+line-height: 60px;
+margin-bottom: 10px;
+text-align: left;
+}
+
+.middle-panel h3, p {
+  padding-left: 7.5% !important;
+  padding-right: 7.5% !important;
 
 }
-.fundx-banner {
+.middle-panel h3 {
+    font-size: 36px !important;
+    line-height: 40px !important;
+    font-weight: 200 !important;
+    margin-bottom: 25px !important;
+}
+
+.middle-panel p {
+  text-align: justify !important;
+}
+
+.middle-panel-header {
+  text-align: center;
+  color: white;
+}
+.middle-panel-header h5 {
+  margin-top: 2.5%;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+.middle-panel-header h6 {
+  margin-top: 10%;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.gradient-blue {
+  background: -webkit-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff);
+    background: -o-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#006199, endColorstr= #ffffff);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#006199, endColorStr= #ffffff);
+    background: -ms-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff);
+    background: -moz-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff);
+    background: linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff); opacity: 0.9;
+}
+
+/*----------------------------------------------------------*/
+#banner {
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png");
   height: 80vh !important;
   color: black !important;
@@ -27,25 +74,22 @@ h4 {
   color: #006098 !important;
 }
 
-#banner-image-layer p {
-  color: black !important;
+#banner-image-layer h2 {
+  margin-top: 7.5%;
+  margin-bottom: 7.5%;
+  font-size: 84px;
+  font-weight: 300;
 }
 
 #banner-image-layer h3 {
   margin-top: 5%;
   margin-bottom: 5%;
+  font-size: 32px;
+  font-weight: 400;
 }
 
-.about-panel-white {
-  color: white !important;
-}
 
-.panel-3-image {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/financial-reports-in-kitchen.jpg");
-  background-position: top center;
-  height: 50vh !important;
-  background-size: cover !important;
-}
+/*----------------------------------------------------------*/
 
 .panel-5-image {
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/financial-reports-in-kitchen2.jpg");
@@ -54,16 +98,8 @@ h4 {
   background-size: cover !important;
 }
 
-.morningstart-gradient-forinvestors {
-  background: -webkit-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
-    background: -o-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#006199, endColorstr= #ffffff);
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#006199, endColorStr= #ffffff);
-    background: -ms-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
-    background: -moz-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
-    background: linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff); opacity: 0.9;
-}
 
+/*
 .morningstart-gradient-foradvisors {
   background: -webkit-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
       background: -o-linear-gradient(#00776e, #3cb3c9, #ffffff, #ffffff, #ffffff, #ffffff);
@@ -95,3 +131,4 @@ h4 {
     background: -moz-linear-gradient(#df0e40, #fc5516);
     background: linear-gradient(#df0e40, #fc5516); opacity: 0.9;
 }
+*/

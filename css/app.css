@@ -18,23 +18,27 @@
 }
 
 .editor-border {
-  border: .5px dashed gray;
+  border: .5px dashed rgba(255, 0, 0, .15);
 }
 
-.fundx-panel-quarter-height {
+.quarter-height {
   height: 25vh;
 }
 
-.fundx-panel-full-height {
+.third-height {
+  height: 33vh;
+}
+
+.full-height {
   height: 100vh;
 }
 
-.fundx-panel-threequarter-height {
+.threequarter-height {
   height: 75vh;
 }
 
 
-.fundx-panel-half-height {
+.half-height {
   height: 50vh;
 }
 
