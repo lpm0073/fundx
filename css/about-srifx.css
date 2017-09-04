@@ -1,6 +1,4 @@
 .container-fluid {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
 }
 
 /*----------------------------------------------------------*/
@@ -52,9 +50,8 @@ text-align: left;
 }
 
 .middle-panel h3, h4, p {
-  padding-left: 12% !important;
-  padding-right: 12% !important;
-
+  padding-left: 5% !important;
+  padding-right: 5% !important;
 }
 .middle-panel h3 {
     text-align: center !important;
@@ -174,12 +171,6 @@ text-align: left;
   margin-top: 5% !important;
 }
 
-.invest-today-image {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/financial-reports-in-kitchen2.jpg");
-  background-position: top center;
-  height: 50vh !important;
-  background-size: cover !important;
-}
 
 /*----------------------- Animations -----------------------------------*/
 @keyframes slide-from-left {
@@ -315,6 +306,7 @@ text-align: left;
     height: 0vh !important;
   }
 
+  /*
   #panel4 {
     float: left !important;
     height: 50vh !important;
@@ -363,6 +355,7 @@ text-align: left;
     display: block;
     margin-bottom: 10%;
   }
+  */
 
 
 }
