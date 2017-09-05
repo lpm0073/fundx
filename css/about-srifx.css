@@ -1,4 +1,6 @@
 .container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 /*----------------------------------------------------------*/
@@ -6,7 +8,7 @@
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh !important;
+  height: 67vh !important;
   color: black !important;
 }
 
@@ -22,24 +24,25 @@
 }
 
 #banner-image-layer h2 {
-  margin-top: 7.5%;
+  margin-top: 20%;
   margin-bottom: 7.5%;
-  font-size: 84px;
+  font-size: 72px;
   font-weight: 300;
 }
 
 #banner-image-layer h3 {
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 5%;
   font-size: 32px;
   font-weight: 400;
 }
 
 
+
 /*----------------------------------------------------------*/
 
 
-.middle-panel h2 {
+#panel1 h2 {
 letter-spacing: -0.01em;
 font-weight: 200;
 margin-top: 0;
@@ -49,34 +52,34 @@ margin-bottom: 10px;
 text-align: left;
 }
 
-.middle-panel h3, h4, p {
+#panel1 h3, h4, p {
   padding-left: 5% !important;
   padding-right: 5% !important;
 }
-.middle-panel h3 {
+#panel1 h3 {
     text-align: center !important;
-    font-size: 38px !important;
-    line-height: 40px !important;
+    font-size: 24px !important;
     font-weight: 200 !important;
     margin-bottom: 25px !important;
     letter-spacing: 0px !important;
 }
 
-.middle-panel h4 {
+#panel1 h4 {
   text-align: center !important;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
+  font-weight: 400;
 }
 
-.middle-panel p {
+#panel1 p {
   margin: 0 0 10px !important;
   line-height: 1.42857143 !important;
   text-align: justify !important;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
 
-.middle-panel img {
+#panel1 img {
   height: 25vh;
 
   display: block;
@@ -84,11 +87,11 @@ text-align: left;
   margin-right: auto;
 }
 
-.middle-panel-header {
+#panel1-header {
   text-align: center !important;
   color: white !important;
 }
-.middle-panel-header h5 {
+#panel1-header h5 {
   margin-top: 2.5%;
   font-size: 20px;
   line-height: 32px;
@@ -96,7 +99,7 @@ text-align: left;
   text-transform: uppercase;
 
 }
-.middle-panel-header h6 {
+#panel1-header h6 {
   margin-top: 8%;
   font-size: 36px;
   font-weight: 100;
@@ -104,43 +107,48 @@ text-align: left;
 }
 
 .gradient-blue {
-  background: -webkit-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
-    background: -o-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
+  background: -webkit-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
+    background: -o-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#006199, endColorstr= #ffffff);
     -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#006199, endColorStr= #ffffff);
-    background: -ms-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
-    background: -moz-linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff);
-    background: linear-gradient(#006199, #00b4d2, #ffffff, #ffffff, #ffffff, #ffffff); opacity: 0.9;
+    background: -ms-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
+    background: -moz-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
+    background: linear-gradient(rgba(0, 97, 153, 1), rgba(0, 97, 153, .75), rgba(0, 97, 153, .5), rgba(0, 97, 153, .25), #ffffff);
 }
 
 /*----------------------------------------------------------*/
 
-.get-the-facts {
-  padding: 5%;
+#panel2 {
+  padding: 1%;
   color: #f1f1f1;
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
-.get-the-facts h3 {
+#panel2 h3 {
+  color: #f1f1f1 !important;
   margin-top: 0px !important;
-  font-size: 56px;
-  font-weight: 100;
+  font-size: 36px;
+  font-weight: 400;
 }
 
-.get-the-facts p {
-  font-size: 20px !important;
-  font-weight: 300;
+#panel2 p {
   text-align: justify;
-  padding-left: 0px !important;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding-top: 2.5% !important;
+  padding-left: 0% !important;
+  font-size: 16px;
+  font-weight: 300;
 }
 
-.get-the-facts button {
+#panel2 button {
   margin-top: 7.5%;
 }
 
-.get-the-facts img {
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+#panel2 img {
   height: 50vh;
 
   display: block;
@@ -148,107 +156,12 @@ text-align: left;
   margin-right: auto;
 }
 
-/*----------------------------------------------------------*/
-.invest-today {
-  padding-left: 5% !important;
-  padding-right: 5% !important;
-  margin-top: 3% !important;
-}
-
-.invest-today h3 {
-  margin-top: 0px !important;
-  font-size: 42px;
-  font-weight: 800;
-}
-
-.invest-today p {
-  text-align: justify;
-  padding-top: 2.5% !important;
-  padding-left: 0% !important;
-}
-
-.invest-today button {
-  margin-top: 5% !important;
+#panel2 img:hover {
+  box-shadow: 0 1px 7px 1px #ddd;
+  border: 1px solid #aaa;
 }
 
 
-/*----------------------- Animations -----------------------------------*/
-@keyframes slide-from-left {
-    from {
-      -ms-transform: translate(-50px, 0px); /* IE 9 */
-      -webkit-transform: translate(-50px, 0px); /* Safari */
-      transform: translate(-50px, 0px);
-    }
-    to {
-      -ms-transform: translate(0px, 0px); /* IE 9 */
-      -webkit-transform: translate(0px, 0px); /* Safari */
-      transform: translate(0px, 0px);
-    }
-}
-
-@keyframes slide-from-right {
-    from {
-      -ms-transform: translate(50px, 0px); /* IE 9 */
-      -webkit-transform: translate(50px, 0px); /* Safari */
-      transform: translate(50px, 0px);
-    }
-    to {
-      -ms-transform: translate(0px, 0px); /* IE 9 */
-      -webkit-transform: translate(0px, 0px); /* Safari */
-      transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-.slide-from-right {
-  animation-name: slide-from-right;
-  animation-duration: 1s;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-}
-
-.slide-from-left {
-  animation-name: slide-from-left;
-  animation-duration: 1s;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-}
-
-.fade-in {
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadein 2s; /* Firefox < 16 */
-       -ms-animation: fadein 2s; /* Internet Explorer */
-        -o-animation: fadein 2s; /* Opera < 12.1 */
-           animation: fadein 2s;
-}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
@@ -279,83 +192,6 @@ text-align: left;
     margin-top: 20% !important;
   }
 
-  .middle-panel-header h5 {
-    font-size: 16px !important;
-  }
-  .middle-panel-header h6 {
-    font-size: 18px !important;
-    text-align: justify;
-    padding: 5%;
-  }
-
-  #panel1a {
-    height: 10vh !important;
-  }
-
-  #panel1b-left {
-    height: 55vh !important;
-  }
-  #panel1b-left {
-    height: 60vh !important;
-  }
-
-  #panel1c-left {
-    height: 80vh !important;
-  }
-  #panel1c-right {
-    height: 0vh !important;
-  }
-
-  /*
-  #panel4 {
-    float: left !important;
-    height: 50vh !important;
-  }
-
-  #panel4-image {
-    visibility: hidden !important;
-    height: 0px;
-    width: 0px;
-  }
-  .get-the-facts h3 {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 400;
-  }
-
-  .get-the-facts p {
-    font-size: 18px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding: 5% !important;
-  }
-
-  .get-the-facts button {
-    margin-top: 10% !important;
-    margin:0 auto;
-    display:block;
-  }
-
-  .invest-today h3 {
-    text-align: center;
-    margin-top: 0px !important;
-    font-size: 20px;
-    font-weight: 500;
-  }
-
-  .invest-today p {
-    text-align: justify;
-    margin: 0 auto;
-    padding: 5% !important;
-  }
-
-  .invest-today button {
-    margin-top: 5% !important;
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 10%;
-  }
-  */
 
 
 }
