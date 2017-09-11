@@ -18,9 +18,7 @@
 }
 
 .editor-border {
-  /*
   border: .5px dashed rgba(255, 0, 0, .15);
-  */
 }
 
 .quarter-height {
@@ -31,8 +29,8 @@
   height: 33vh;
 }
 
-.full-height {
-  height: 100vh;
+.half-height {
+  height: 50vh;
 }
 
 .twothird-height {
@@ -43,11 +41,9 @@
   height: 75vh;
 }
 
-
-.half-height {
-  height: 50vh;
+.full-height {
+  height: 100vh;
 }
-
 
 .fundx-banner {
   padding: 0px !important;
