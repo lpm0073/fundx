@@ -149,9 +149,11 @@ text-align: left;
 .panel2-cta {
   position: absolute;
   bottom: 0px;
-  padding: 5%;
   margin-bottom: 15px;
-  width: 95%;
+  margin: auto;
+  width: 100%;
+  padding: 25px;
+  background-color: yellow;
 }
 
 #panel2 img {
@@ -167,7 +169,7 @@ text-align: left;
 
 #panel2 img:hover {
   box-shadow: 0 1px 7px 1px #ccc;
-  border: 1px solid #ddd;
+  border: 2px solid #fff;
 }
 
 .panel2-col {
@@ -175,14 +177,21 @@ text-align: left;
 }
 
 .panel2-inner-col {
-  color: #555;
+  position: relative;
   height: 45vh;
   min-height: 550px;
+  margin-left: 25px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+
+.panel2-inner-col-left {
+}
+
+.panel2-inner-col-right {
+  color: #555;
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(0, 0, 0, .1);
-  margin-left: 0px;
-  margin-right: 0px;
-  overflow: hidden;
 }
 
 
