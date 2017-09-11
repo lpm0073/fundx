@@ -153,7 +153,6 @@ text-align: left;
   margin: auto;
   width: 100%;
   padding: 25px;
-  background-color: yellow;
 }
 
 #panel2 img {
@@ -169,7 +168,7 @@ text-align: left;
 
 #panel2 img:hover {
   box-shadow: 0 1px 7px 1px #ccc;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
 }
 
 .panel2-col {
@@ -189,12 +188,19 @@ text-align: left;
 }
 
 .panel2-inner-col-right {
+  position: relative;
   color: #555;
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(0, 0, 0, .1);
 }
 
-
+.panel2-paragraph {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 25%;
+  transform: translateY(-50%);
+}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
