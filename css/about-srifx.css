@@ -26,7 +26,7 @@
 #banner-image-layer h2 {
   margin-top: 10%;
   margin-bottom: 7.5%;
-  font-size: 72px;
+  font-size: 5em;
   font-weight: 300;
 }
 
@@ -42,10 +42,11 @@
 /*----------------------------------------------------------*/
 
 #panel1  {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
   padding: 30px;
-  height: 55vh;
+  background-color: rgba(0,0,0, 0.02);
+  min-height: 650px;
 }
 
 #panel1 h2 {
@@ -64,35 +65,44 @@ text-align: left;
 }
 #panel1 h3 {
     text-align: center !important;
-    font-size: 24px !important;
+    font-size: 2em !important;
     font-weight: 200 !important;
-    margin-bottom: 25px !important;
+    margin-bottom: 50px !important;
     letter-spacing: 0px !important;
+    text-align: justify;
 }
 
 #panel1 h4 {
   text-align: center !important;
   margin-top: 2.5%;
-  margin-bottom: 2.5%;
-  font-weight: 400;
+  padding-top: 2.5%;
+  margin-bottom: 5%;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
 #panel1 p {
   margin: 0 0 10px !important;
   line-height: 1.42857143 !important;
   text-align: justify !important;
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: 300;
 }
 
-#panel1 img {
-  height: 25vh;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.panel1-col {
+  height: 34vh;
 }
 
+.panel1-inner-col {
+  height: 34vh;
+  min-height: 350px;
+  background-color: #fff;
+/*  border-bottom: 1px solid rgba(0, 0, 0, .05); */
+  box-shadow: 0 1px 3px 1px #ddd;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
+}
 
 
 .gradient-blue {
@@ -115,10 +125,12 @@ text-align: left;
 }
 #panel2 h3 {
   color: #f1f1f1 !important;
-  margin-top: 0px !important;
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
   padding-left: 0px !important;
   font-size: 36px;
   font-weight: 400;
+  text-align: center;
 }
 
 #panel2 p {
@@ -130,20 +142,21 @@ text-align: left;
 }
 
 #panel2 button {
-  margin-top: 7.5%;
+  margin-top: 10%;
+  width: 100%;
 }
 
-.button-center {
-  display: flex;
-  justify-content: center;
+.panel2-cta {
+  padding: 10%;
 }
 
 #panel2 img {
-  height: 35vh;
+  width: 50%;
 
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
 }
 
 #panel2 img:hover {
