@@ -46,7 +46,7 @@
   margin-right: 0px;
   padding: 30px;
   background-color: rgba(0,0,0, 0.02);
-  min-height: 650px;
+  min-height: 550px;
 }
 
 #panel1 h2 {
@@ -188,14 +188,13 @@ text-align: left;
 }
 
 .panel2-inner-col-right {
+  color: white;
   position: relative;
+  /*
   color: #08679F;;
   background-color: rgba(234, 239, 242, .5);
-  /*
-  border: 1px solid rgba(0, 0, 0, .1);
-  border-bottom: none;
-  */
   border-radius: 15px;
+  */
 }
 
 .panel2-paragraph {
