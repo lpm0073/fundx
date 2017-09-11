@@ -120,12 +120,10 @@ text-align: left;
 
 #panel2 {
   padding: 1%;
-  color: #f1f1f1;
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
 #panel2 h3 {
-  color: #f1f1f1 !important;
   margin-top: 25px !important;
   margin-bottom: 25px !important;
   padding-left: 0px !important;
@@ -136,33 +134,51 @@ text-align: left;
 
 #panel2 p {
   text-align: justify;
-  padding-top: 2.5% !important;
-  padding-left: 0% !important;
   font-size: 1.25em;
   font-weight: 300;
 }
 
 #panel2 button {
-  margin-top: 10%;
   width: 100%;
 }
 
 .panel2-cta {
-  padding: 10%;
+  position: absolute;
+  bottom: 0px;
+  padding: 5%;
+  margin-bottom: 15px;
+  width: 95%;
 }
 
 #panel2 img {
   width: 50%;
+  border: 1px solid #eee;
 
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 #panel2 img:hover {
-  box-shadow: 0 1px 7px 1px #ddd;
-  border: 1px solid #aaa;
+  box-shadow: 0 1px 7px 1px #ccc;
+  border: 1px solid #ddd;
+}
+
+.panel2-col {
+  margin-top: 25px;
+}
+
+.panel2-inner-col {
+  color: #555;
+  height: 45vh;
+  min-height: 500px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, .1);
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
 }
 
 
