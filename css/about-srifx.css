@@ -5,6 +5,14 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+  #banner {
+    height: 300px !important;
+  }
+
+  #banner h2 {
+    font-size: 4em !important;
+  }
+
 
   #panel2 {
     height: inherit !important;
@@ -61,12 +69,12 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-  #banner-image-layer h2 {
-    margin-top: 0% !important;
-    font-size: 4em !important;
+  #banner {
+    height: 250px !important;
   }
 
-  #panel1  {
+  #banner h2 {
+    font-size: 3em !important;
   }
 
   .panel1-col {
@@ -84,8 +92,13 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+
   #panel2 img {
     width: 75% !important;
+  }
+
+  #panel2 p {
+    font-weight: inherit !important;
   }
 
   #invest-today {
@@ -110,6 +123,18 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+  #banner {
+    height: 200px !important;
+  }
+
+  #banner h2 {
+    font-size: 2em !important;
+  }
+
+  #panel1  {
+    padding: 10px !important;
+  }
+
   .panel1-inner-col {
     height: 350px !important;
   }
@@ -120,6 +145,10 @@
 
   #invest-today {
     margin-top: 0px;
+  }
+
+  .panel2-inner-col {
+    min-height: 450px !important;
   }
 
   .panel2-inner-col-right {
@@ -136,6 +165,7 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+
 
 }
 
@@ -163,7 +193,7 @@
 #panel2 p {
   text-align: justify;
   font-size: 1.25em;
-  font-weight: 300;
+  font-weight: bolder;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -238,34 +268,28 @@
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px !important;
-  color: black !important;
+  height: 300px;
+
+  display: inline-table;
+  width: 100%;
 }
 
-#banner-image-layer {
-  margin-top: 10%;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+#banner-title {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+ }
 
-#banner-image-layer h2, #banner-image-layer h3{
+
+#banner h2 {
   color: #006098 !important;
-}
-
-#banner-image-layer h2 {
-  margin-top: 10%;
-  margin-bottom: 7.5%;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 300;
+  text-align: center;
 }
 
-#banner-image-layer h3 {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-size: 32px;
-  font-weight: 400;
-}
+
+
 
 /*----------------------------------------------------------*/
 
