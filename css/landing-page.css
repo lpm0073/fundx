@@ -1,10 +1,3 @@
-/*
-No need for style tags here;
-simply get started by writing
-CSS! Watch as your changes
-are reflected live in the
-preview area. Have fun!
-*/
 
 div.homepage-news-box {
    height:150px;
@@ -171,23 +164,24 @@ font-weight: 300;
 }
 */
 
-/*-------------- Begin: for the 3 right-side panels -------------------*/
-
-.fundx-panel-spacer {
-  margin-top: 300px;
+.release-fish-bowls {
+  /*
+    this is a placeholder class for a wordpress plugin that
+    freezes the fish bowl in place while the panels scroll.
+  */
 }
+/*-------------- Begin: for the 3 right-side panels -------------------*/
 
 .height-full {
   height:100vh;
 }
 
 .height-half {
-  height:55vh;
+  height:70vh;
 }
 
 .fundx-panel {
-  padding: 0px 0px 2px 15px;
-  margin-top: 50px;
+  padding: 0px 0px 0px 15px;
 }
 
 .fundx-panel h2 {
@@ -221,8 +215,16 @@ font-weight: 300;
 }
 
 #panel1 {
-  margin-top: 0px;
+  margin-top: 25px;
+  margin-bottom: 20vh;
 }
+#panel2 {
+  margin-bottom: 20vh;
+}
+#panel3 {
+  margin-bottom: 25px;
+}
+
 /*-------------- Begin: for the 3 right-side panels -------------------*/
 
 
