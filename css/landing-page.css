@@ -1,3 +1,49 @@
+/*
+No need for style tags here;
+simply get started by writing
+CSS! Watch as your changes
+are reflected live in the
+preview area. Have fun!
+*/
+
+div.homepage-news-box {
+   height:150px;
+ }
+div.homepage-news-box h6 {
+     text-align:center;
+     margin-top: 10px;
+     text-transform: none;
+ }
+
+div.homepage-news-box p {
+   text-align: justify;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+div.homepage-news-box span {
+  font-size: .9em; font-weight: 400; background-color: f8f8f8;
+}
+
+
+.img-container {
+    height: 300px;
+    text-align: center;  /* align the inline(-block) elements horizontally */
+    font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.img-container:before {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+.vertical-center {
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    font: 16px/1 Arial sans-serif;        /* <-- reset the font property */
+}
+
 /*-------------------- Page overrides  -----------------------------------*/
 .container-fluid {
   padding: 0px;
@@ -107,7 +153,7 @@ font-weight: 300;
   text-align: center;
 }
 
-
+/*
 .fish-bowl-wrapper {
   height:100vh;
   padding-top: 15vh;
@@ -117,13 +163,13 @@ font-weight: 300;
 .fish-bowl {
   background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/07/fish-bowls.png");
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center center;
   background-size: cover;
   z-index: 0;
   height: 336px;
   margin-top: 0px;
 }
-
+*/
 
 /*-------------- Begin: for the 3 right-side panels -------------------*/
 
@@ -131,9 +177,16 @@ font-weight: 300;
   margin-top: 300px;
 }
 
+.height-full {
+  height:100vh;
+}
+
+.height-half {
+  height:55vh;
+}
+
 .fundx-panel {
   padding: 0px 0px 2px 15px;
-  height:100vh;
   margin-top: 50px;
 }
 
@@ -168,7 +221,7 @@ font-weight: 300;
 }
 
 #panel1 {
-  margin-top: 500px;
+  margin-top: 0px;
 }
 /*-------------- Begin: for the 3 right-side panels -------------------*/
 
