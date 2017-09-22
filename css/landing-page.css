@@ -170,23 +170,13 @@ width: 50%;
 z-index: 99;
 }
 
-.fundx-header {
-position: fixed;
-top: 0px;
-height: 25px;
-background-color: #222;
-width: 100%;
-z-index: 99;
-text-align: center;
-font-weight: 300;
-}
 
 /*--------------------Menu & Header -----------------------------------*/
 
 .release-fish-bowls {
   /*
     this is a placeholder class for a wordpress plugin that
-    freezes the fish bowl in place while the panels scroll.
+    freezes tfundx-panelhe fish bowl in place while the panels scroll.
   */
 }
 /*-------------- Begin: for the 3 right-side panels -------------------*/
@@ -204,6 +194,7 @@ font-weight: 300;
 }
 
 .fundx-panel h2 {
+  color: #013878;
   letter-spacing: -0.01em;
   font-weight: 200;
   margin-top: 0;
@@ -224,7 +215,7 @@ font-weight: 300;
 }
 
 .fundx-panel a {
-  color: red;
+  color: #3489A1;
   font-size: 1em;
   text-decoration: underline;
 }
@@ -253,7 +244,7 @@ font-weight: 300;
   padding: 0px !important;
   margin: 0px !important;
   color: #f5f5f5;
-  background: #3489A1; /* For browsers that do not support gradients */
+  background: #3489A1; /* Logo teal green. For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #3489A1, rgba(52,137,161, 0.50)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #3489A1, rgba(52,137,161, 0.50)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #3489A1, rgba(52,137,161, 0.50)); /* For Firefox 3.6 to 15 */
@@ -281,9 +272,6 @@ font-weight: 300;
 }
 
 .fundx-bottom-fullwidth1-text {
-  border-color: red;
-  border-width: 0px;
-  border-style: solid;
   height: 400px;
 }
 
@@ -296,9 +284,6 @@ font-weight: 300;
   overflow: hidden;
   margin: 0;
   height: 400px;
-  border-color: red;
-  border-width: 0px;
-  border-style: solid;
 }
 
 
