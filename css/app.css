@@ -1,157 +1,329 @@
-.fundx-green {
-  color: #4E9D2D !important;
+
+.banner-content {
+  color:#f1f1f1;
+  position: absolute;
+  width: 100%;
+  top: 25px;
+  left: 0px;
+  margin: auto !important;
 }
 
-.fundx-aquamarine {
-  color: #3586A2 !important;
-}
-
-.fundx-blue {
-  color: #013878 !important;
-}
-
-.editor-note {
-  color: orange  !important;
-  font-style: italic !important;
-  font-weight: bold !important;
-  text-align: center;
-}
-
-.editor-border {
-  /*
-  border: .5px dashed rgba(255, 0, 0, .15);
-  */
-}
-
-.quarter-height {
-  height: 25vh;
-}
-
-.third-height {
-  height: 33vh;
-}
-
-.half-height {
-  height: 50vh;
-}
-
-.twothird-height {
-  height: 67vh;
-}
-
-.threequarter-height {
-  height: 75vh;
-}
-
-.full-height {
-  height: 100vh;
-}
-
-.fundx-banner {
-  padding: 0px !important;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center center;
-  background-clip: border-box;
-  overflow: hidden;
-  margin-left: -15px !important;
-  margin-right: -15px !important;
-  height:100vh;
-  color:#fff;
-}
-
-.fundx-banner div {
-    color: white;
-    padding: 25px;
-}
-
-.fundx-banner h2 {
-  color: white;
-  font-size: 4em;
+.banner-content h1 span {
+  color: inherit;
+  font-size: .4em;
   font-weight: 400;
+  font-family: "Times New Roman", Georgia, Serif;
+  text-shadow: 2px 2px 4px #555;
 }
 
-.fundx-banner h3 {
-  color: white;
+.banner-content h1 {
+  color: inherit;
+  font-size: 7.5em;
+  font-weight: 700;
+  margin: 25px;
+}
+
+.banner-subtitle {
+  position: relative;
+	bottom: 0;
+}
+.banner-subtitle p {
+  font-family: "Times New Roman", Georgia, Serif;
+  color: inherit;
+  text-align: center;
   font-size: 3em;
+  margin-bottom: 0;
+}
+
+.banner-subtitle h3 {
+  text-align: center;
+  margin-top: 10px;
+  height: 75px;
+  padding-top: 1%;
+}
+
+.banner-subtitle h3 span {
+  color: white;
+  font-size: 1.5em;
+  background-color: #4E9D2D;
+  border-radius: 10px;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+
+/*-------------------- Page overrides  -----------------------------------*/
+.container-fluid {
+  padding: 0px;
+}
+/*
+[class^="col-"] {
+  padding: 0px !important;
+}
+*/
+
+/* this is a hack to force bootstrap columns to maintain equal height */
+.row.match-column-height {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.row.match-column-height [class*="col-"]{
+  display: flex;
+  flex-direction: column;
+}
+
+/*-------------------- Page overrides  -----------------------------------*/
+
+/*--------------------Menu & Header -----------------------------------*/
+
+nav {
+border-radius: 0px !important;
+}
+
+.navbar{
+  border: none;
+  border-radius: 0;
+  background-color: rgba(0,0,0,0.25);
+}
+
+
+.affix {
+  top: 0px;
+}
+
+.affix.navbar.navbar-inverse {
+  width: 100%;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+
+.affix + .fish-bowl {
+  padding-top: 0px;
+}
+
+.affix.fish-bowl {
+width: 50%;
+}
+
+
+.navbar {
+z-index: 99;
+}
+
+.fundx-header {
+  position: fixed;
+  top: 0px;
+  height: 25px;
+  background-color: #222;
+  width: 100%;
+  z-index: 99;
+  text-align: center;
   font-weight: 300;
 }
 
-
-.fundx-full-column-image {
+/*--------------------Menu & Header -----------------------------------*/
+.banner-background {
+  height:100vh;
+  margin: 0px !important;
   padding: 0px !important;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 255, 0.10),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/09/bigstockphoto.com_.115853594.jpg");
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.fish-bowl-wrapper {
+  height:100vh;
+  padding-top: 15vh;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.fish-bowl {
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/07/fish-bowls.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  z-index: 0;
+  height: 336px;
+  margin-top: 0px;
+}
+
+
+/*-------------- Begin: for the 3 right-side panels -------------------*/
+
+.fundx-panel-spacer {
+  margin-top: 300px;
+}
+
+.fundx-panel {
+  padding: 0px 0px 2px 15px;
+  height:100vh;
+  margin-top: 50px;
+}
+
+.fundx-panel h2 {
+  letter-spacing: -0.01em;
+  font-weight: 200;
+  margin-top: 0;
+  font-size: 4em;
+  line-height: 60px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.fundx-panel p {
+  font-size: 1.25em;
+  line-height: 24pxt;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: left;
+}
+
+.fundx-panel a {
+  color: red;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.fundx-panel a:hover {
+  font-weight: 500;
+}
+
+#panel1 {
+  margin-top: 500px;
+}
+/*-------------- Begin: for the 3 right-side panels -------------------*/
+
+
+/*-------------- Begin: Invest today for a better tomorrow -------------------*/
+/* dark blue: #013878 */
+/* logo teal: #3489A1 */
+
+.fundx-bottom-fullwidth1 {
+  padding: 0px !important;
+  margin: 0px !important;
+  color: #f5f5f5;
+  background: #3489A1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #3489A1, rgba(52,137,161, 0.50)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #3489A1, rgba(52,137,161, 0.50)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #3489A1, rgba(52,137,161, 0.50)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #3489A1, rgba(52,137,161, 0.50)); /* Standard syntax */
+
+  border-color: green;
+  border-width: 0px;
+  border-style: dashed;
+}
+
+.fundx-bottom-fullwidth1 h2 {
+  letter-spacing: -0.01em;
+  font-weight: 200;
+  font-size: 56px;
+  line-height: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px 5px 2px 5px;
+  color: inherit;
+}
+.fundx-bottom-fullwidth1 p {
+  padding: 0 5px 2px 5px;
+  font-weight: 200;
+  font-size: 1.5em;
+  line-height: 34px;
+}
+
+.fundx-bottom-fullwidth1-text {
+  border-color: red;
+  border-width: 0px;
+  border-style: solid;
+  height: 400px;
+}
+
+.fundx-bottom-fullwidth1-image {
+  padding: 0px !important;
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/invest-today-for-better-tommorrow.jpg");
   background-size: auto;
   background-position: center center;
   background-clip: border-box;
   overflow: hidden;
   margin: 0;
-  height: 100vh;
-}
-
-.fundx-text-white {
-  color: white !important;
-}
-
-.fundx-text-normal {
-  color: #555;
-}
-
-.fundx-panel-section {
-  color: inherit;
-}
-
-.fundx-panel-section p {
-  padding: 10px;
-  color: inherit;
-  font-family: inherit;
-  font-style:normal;
-  font-weight: inherit;
-}
-
-.fundx-panel-section h3 {
-  margin: 0px;
-  padding: 0px;
-  color: inherit;
-  font-family: inherit;
-  font-style:normal;
-  font-weight: inherit;
-}
-
-.fundx-panel-section img {
-}
-
-.fundx-panel-text {
-  padding: 25px;
-}
-
-.fundx-panel-label {
-  text-align: center;
-}
-
-.fundx-eco-gradient {
-	  background: #4E9D2D; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #4E9D2D, #4E9D2D, #92d775); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #4E9D2D, #4E9D2D, #92d775); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #4E9D2D, #4E9D2D, #92d775); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #4E9D2D, #4E9D2D, #92d775); /* Standard syntax */
-}
-
-.fundx-white-gradient {
-    background: #ffffff; browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #FFFFFF, #f1f1f1); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #FFFFFF, #f1f1f1); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #FFFFFF, #f1f1f1); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #FFFFFF, #f1f1f1); /* Standard syntax */
+  height: 400px;
+  border-color: red;
+  border-width: 0px;
+  border-style: solid;
 }
 
 
-.gradient-blue {
-  background: -webkit-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
-    background: -o-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#006199, endColorstr= #ffffff);
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#006199, endColorStr= #ffffff);
-    background: -ms-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
-    background: -moz-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
-    background: linear-gradient(rgba(0, 97, 153, 1), rgba(0, 97, 153, .75), rgba(0, 97, 153, .5), rgba(0, 97, 153, .25), #F9F9F9);
+/*-------------- End: Invest today for a better tomorrow -------------------*/
+
+/*-------------- Begin: Get the Facts about SRIFX -------------------*/
+
+.fundx-bottom-fullwidth2 {
+background-color: #fff;
+min-height: 550px;
+margin-top: 75px;
+padding-left: 50px;
+
+}
+
+.fundx-bottom-fullwidth2 h2 {
+letter-spacing: -0.01em;
+font-weight: 500;
+margin-top: 0;
+font-size: 56px;
+line-height: 60px;
+margin-top: 50px;
+margin-bottom: 50px;
+color: inherit;
+
+}
+.fundx-bottom-fullwidth2 p {
+padding: 0 5px 2px 5px;
+font-weight: 200;
+font-size: 1.5em;
+line-height: 34px;
+}
+.fundx-bottom-fullwidth2 button {
+margin-top: 25px;
+}
+
+.fundx-bottom-fullwidth2-image-frame {
+height: 350px;
+width: 90%;
+position: relative;
+}
+
+.fundx-bottom-fullwidth2 img {
+max-width: 100%;
+max-height: 100%;
+padding: 10%;
+}
+
+/*-------------- End: Get the Facts about SRIFX -------------------*/
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+
 }
