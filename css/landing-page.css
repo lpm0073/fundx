@@ -1,3 +1,19 @@
+.banner-background {
+  height:100vh;
+  margin: 0px !important;
+  padding: 0px !important;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 255, 0.20),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/09/bigstockphoto.com_.115853594.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 
 .banner-content {
   color:#f1f1f1;
@@ -52,6 +68,46 @@
   padding: 15px;
 }
 
+
+/*-------------------- Page overrides  -----------------------------------*/
+
+div.homepage-news-box {
+   height:150px;
+ }
+div.homepage-news-box h6 {
+     text-align:center;
+     margin-top: 10px;
+     text-transform: none;
+ }
+
+div.homepage-news-box p {
+   text-align: justify;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+div.homepage-news-box span {
+  font-size: .9em; font-weight: 400; background-color: f8f8f8;
+}
+
+
+.img-container {
+    height: 300px;
+    text-align: center;  /* align the inline(-block) elements horizontally */
+    font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.img-container:before {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+.vertical-center {
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    font: 16px/1 Arial sans-serif;        /* <-- reset the font property */
+}
 
 /*-------------------- Page overrides  -----------------------------------*/
 .container-fluid {
@@ -115,61 +171,36 @@ z-index: 99;
 }
 
 .fundx-header {
-  position: fixed;
-  top: 0px;
-  height: 25px;
-  background-color: #222;
-  width: 100%;
-  z-index: 99;
-  text-align: center;
-  font-weight: 300;
+position: fixed;
+top: 0px;
+height: 25px;
+background-color: #222;
+width: 100%;
+z-index: 99;
+text-align: center;
+font-weight: 300;
 }
 
 /*--------------------Menu & Header -----------------------------------*/
-.banner-background {
-  height:100vh;
-  margin: 0px !important;
-  padding: 0px !important;
 
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 255, 0.20),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/09/bigstockphoto.com_.115853594.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+.release-fish-bowls {
+  /*
+    this is a placeholder class for a wordpress plugin that
+    freezes the fish bowl in place while the panels scroll.
+  */
 }
-
-
-.fish-bowl-wrapper {
-  height:100vh;
-  padding-top: 15vh;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-.fish-bowl {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/07/fish-bowls.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-  z-index: 0;
-  height: 336px;
-  margin-top: 0px;
-}
-
-
 /*-------------- Begin: for the 3 right-side panels -------------------*/
 
-.fundx-panel-spacer {
-  margin-top: 300px;
+.height-full {
+  height:100vh;
+}
+
+.height-half {
+  height:70vh;
 }
 
 .fundx-panel {
-  padding: 0px 0px 2px 15px;
-  height:100vh;
-  margin-top: 50px;
+  padding: 0px 0px 0px 15px;
 }
 
 .fundx-panel h2 {
@@ -203,14 +234,20 @@ z-index: 99;
 }
 
 #panel1 {
-  margin-top: 500px;
+  margin-top: 25px;
+  margin-bottom: 20vh;
 }
+#panel2 {
+  margin-bottom: 20vh;
+}
+#panel3 {
+  margin-bottom: 25px;
+}
+
 /*-------------- Begin: for the 3 right-side panels -------------------*/
 
 
 /*-------------- Begin: Invest today for a better tomorrow -------------------*/
-/* dark blue: #013878 */
-/* logo teal: #3489A1 */
 
 .fundx-bottom-fullwidth1 {
   padding: 0px !important;
@@ -226,7 +263,6 @@ z-index: 99;
   border-width: 0px;
   border-style: dashed;
 }
-
 .fundx-bottom-fullwidth1 h2 {
   letter-spacing: -0.01em;
   font-weight: 200;
@@ -308,7 +344,7 @@ position: relative;
 .fundx-bottom-fullwidth2 img {
 max-width: 100%;
 max-height: 100%;
-padding: 10%;
+padding: 0%;
 }
 
 /*-------------- End: Get the Facts about SRIFX -------------------*/
