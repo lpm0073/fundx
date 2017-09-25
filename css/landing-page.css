@@ -269,6 +269,7 @@ z-index: 99;
   font-weight: 200;
   font-size: 1.5em;
   line-height: 34px;
+  text-align: justify;
 }
 
 .fundx-bottom-fullwidth1-text {
@@ -292,44 +293,47 @@ z-index: 99;
 /*-------------- Begin: Get the Facts about SRIFX -------------------*/
 
 .fundx-bottom-fullwidth2 {
-background-color: #fff;
-min-height: 550px;
-margin-top: 75px;
-padding-left: 50px;
-
+  background-color: #fff;
+  margin-top: 75px;
+  padding-left: 50px;
 }
 
+.fundx-bottom-fullwidth2-right {
+  padding-left: 100px;
+  padding-right: 100px;
+}
 .fundx-bottom-fullwidth2 h2 {
-letter-spacing: -0.01em;
-font-weight: 500;
-margin-top: 0;
-font-size: 56px;
-line-height: 60px;
-margin-top: 50px;
-margin-bottom: 50px;
-color: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  margin-top: 0;
+  font-size: 56px;
+  line-height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: inherit;
+}
 
-}
 .fundx-bottom-fullwidth2 p {
-padding: 0 5px 2px 5px;
-font-weight: 200;
-font-size: 1.5em;
-line-height: 34px;
+  padding: 0 5px 2px 5px;
+  font-weight: 200;
+  font-size: 1.5em;
+  text-align: justify;
 }
+
 .fundx-bottom-fullwidth2 button {
-margin-top: 25px;
+  margin-top: 5px;
 }
 
 .fundx-bottom-fullwidth2-image-frame {
-height: 350px;
-width: 90%;
-position: relative;
+  height: 250px;
+  width: 90%;
+  position: relative;
 }
 
 .fundx-bottom-fullwidth2 img {
-max-width: 100%;
-max-height: 100%;
-padding: 0%;
+  margin: auto;
+  height: 400px;
+  padding: 0%;
 }
 
 /*-------------- End: Get the Facts about SRIFX -------------------*/
