@@ -5,6 +5,22 @@
   max-height:67%;
 }
 
+#invest-table {
+  width:100%;
+  margin-top: 50px;
+}
+.col-1 {
+  width: 25%;
+}
+#invest-table tr {
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#invest-table  tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 /*----------------------------------------------------------*/
 
@@ -12,7 +28,6 @@
   padding: 1%;
   margin-left: 0px !important;
   margin-right: 0px !important;
-  height: 100vh;
 }
 #panel2 h3 {
   color: #f1f1f1;
@@ -26,10 +41,7 @@
 
 #panel2 p {
   text-align: justify;
-  font-size: 1.25em;
-  font-weight: bolder;
-  padding-left: 25px;
-  padding-right: 25px;
+  font-size: 1em;
 }
 
 
@@ -48,6 +60,12 @@
 #panel2 img:hover {
   box-shadow: 0 1px 7px 1px #ccc;
   border: 3px solid #fff;
+}
+
+#panel2 button {
+  width: 80%;
+  margin-left: 0%;
+  margin-right: 10%;
 }
 
 .panel2-col {
@@ -346,6 +364,8 @@ text-align: left;
 
   .panel2-inner-col-right {
     width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .panel2-paragraph {
