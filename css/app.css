@@ -1,3 +1,44 @@
+
+.legal-disclaimer {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin: 10px;
+    text-align: justify;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.legal-disclaimer {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+.legal-disclaimer {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+
+}
+
+
 .fundx-doc-box {
   border: 1px solid #aaa;
 }
