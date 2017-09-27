@@ -1,3 +1,5 @@
+
+
 #panel4 img {
   max-width:67%;
   max-height:67%;
@@ -24,6 +26,7 @@
 
 #panel3 h4 {
   color: #3586A2;
+  margin-top: 5px;
   font-size: 3em;
   font-weight: 300;
   text-align: center;
@@ -42,6 +45,10 @@
 #panel3 a:hover {
 }
 
+#panel3 button {
+  width: 100%;
+  font-weight: 700;
+}
 
 #panel3 img {
   width: 75%;
@@ -87,6 +94,80 @@
 
 /*----------------------------------------------------------*/
 
+/*----------------------------------------------------------*/
+
+#panel2 {
+  padding: 1%;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  height: 450px;
+}
+#panel2 h3 {
+  color: #f1f1f1;
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+  padding-left: 0px !important;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#panel2 p {
+  text-align: justify;
+  font-size: 1.25em;
+  font-weight: bolder;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+
+#panel2 img {
+  width: 50%;
+  border: 1px solid #eee;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+#panel2 img:hover {
+  box-shadow: 0 1px 7px 1px #ccc;
+  border: 3px solid #fff;
+}
+
+.panel2-col {
+  margin-top: 25px;
+}
+
+.panel2-inner-col {
+  position: relative;
+  height: 450px;
+  margin-left: 25px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+
+.panel2-inner-col-left {
+}
+
+.panel2-inner-col-right {
+  position: relative;
+  /*
+  color: #08679F;;
+  background-color: rgba(234, 239, 242, .5);
+  border-radius: 15px;
+  */
+}
+
+.panel2-paragraph {
+  color: white;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
 
 
 
@@ -368,85 +449,4 @@ text-align: left;
 @media only screen and (max-width : 320px) {
 
 
-}
-
-
-
-/*----------------------------------------------------------*/
-
-#panel2 {
-  padding: 1%;
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  height: 60vh;
-  min-height: 625px;
-}
-#panel2 h3 {
-  color: #f1f1f1;
-  margin-top: 25px !important;
-  margin-bottom: 25px !important;
-  padding-left: 0px !important;
-  font-size: 36px;
-  font-weight: 400;
-  text-align: center;
-}
-
-#panel2 p {
-  text-align: justify;
-  font-size: 1.25em;
-  font-weight: bolder;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-#panel2 button {
-  width: 100%;
-}
-
-
-#panel2 img {
-  width: 50%;
-  border: 1px solid #eee;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 15px;
-}
-
-#panel2 img:hover {
-  box-shadow: 0 1px 7px 1px #ccc;
-  border: 3px solid #fff;
-}
-
-.panel2-col {
-  margin-top: 25px;
-}
-
-.panel2-inner-col {
-  position: relative;
-  height: 45vh;
-  min-height: 550px;
-  margin-left: 25px;
-  margin-right: 25px;
-  overflow: hidden;
-}
-
-.panel2-inner-col-left {
-}
-
-.panel2-inner-col-right {
-  position: relative;
-  /*
-  color: #08679F;;
-  background-color: rgba(234, 239, 242, .5);
-  border-radius: 15px;
-  */
-}
-
-.panel2-paragraph {
-  color: white;
-  width: 100%;
-  margin: auto;
 }
