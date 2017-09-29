@@ -1,5 +1,5 @@
 .banner-background {
-  height:100vh;
+  height:67vh;
   margin: 0px !important;
   padding: 0px !important;
 
@@ -8,7 +8,7 @@
       rgba(0, 0, 255, 0.20),
       rgba(0, 0, 0, 0.5)
     ),
-    url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/09/bigstockphoto.com_.115853594.jpg");
+    url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/09/75220067_f.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -41,7 +41,7 @@
 }
 
 .banner-subtitle {
-  margin-top: 30vh;
+  margin-top: 10vh;
 }
 .banner-subtitle p {
   font-family: "Times New Roman", Georgia, Serif;
