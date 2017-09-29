@@ -157,13 +157,6 @@ border-radius: 0px !important;
   padding-top: 70px;
 }
 
-.affix + .fish-bowl {
-  padding-top: 0px;
-}
-
-.affix.fish-bowl {
-width: 50%;
-}
 
 
 .navbar {
@@ -172,6 +165,10 @@ z-index: 99;
 
 
 /*--------------------Menu & Header -----------------------------------*/
+
+#fish-bowl {
+  margin-top: 50px;
+}
 
 .release-fish-bowls {
   /*
@@ -221,7 +218,7 @@ z-index: 99;
 }
 
 #panel1 {
-  margin-top: 25px;
+  margin-top: 50px;
   margin-bottom: 20vh;
 }
 #panel2 {
