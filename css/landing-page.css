@@ -14,17 +14,24 @@
   background-size: cover;
 }
 
-
-.banner-title {
-  color:#f1f1f1;
+.banner-content {
   position: relative;
   height: inherit;
-  width: 100%;
-  top: -11vh;
-  left: 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  color:#f1f1f1;
+}
+
+.banner-title {
+  color: inherit;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-left: inherit;
+  margin-right: inherit;
+  text-align: inherit;
 }
 
 .banner-title h1 span {
@@ -41,6 +48,8 @@
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 7.5em;
   font-weight: 700;
+  margin-top: 9vh;
+  margin-bottom: 0;
 }
 
 .banner-subtitle {
@@ -48,7 +57,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  margin-bottom: 12.5vh;
+  margin-bottom: 7.5vh;
   margin-left: inherit;
   margin-right: inherit;
   text-align: inherit;
@@ -63,21 +72,18 @@
 }
 
 .banner-subtitle h3 {
-  text-align: center;
-  margin-top: 10px;
-  height: 75px;
-  padding-top: 1%;
-  font-weight: 600;
-}
-
-.banner-subtitle h3 span {
   color: white;
-  font-size: 1.5em;
+  font-size: 3em;
+  font-weight: 500;
   background-color: #4E9D2D;
   border-radius: 10px;
-  vertical-align: middle;
   padding: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
 
 
 /*-------------------- Page overrides  -----------------------------------*/
@@ -300,15 +306,55 @@ z-index: 99;
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
+  .banner-title h1 {
+    font-size: 6em;
+  }
+  .banner-subtitle h3 {
+    font-size: 1.5em;
+  }
+
+
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
+  .banner-title h1 {
+    font-size: 4.5em;
+    margin-top: 15vh;
+  }
+  .banner-subtitle h3 {
+    font-size: 1.5em;
+  }
+
 
 }
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+
+  .banner-title h1 {
+    font-size: 3em;
+    margin-top: 15vh;
+  }
+  .banner-subtitle h3 {
+    font-size: 1.5em;
+  }
+
+  .banner-background {
+    background-position: left center;
+  }
+
+}
+
+/********** Super small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+  .banner-title h1 {
+    font-size: 2em;
+  }
+  .banner-subtitle h3 {
+    font-size: 1.5em;
+  }
 
 
 }
