@@ -291,8 +291,14 @@ z-index: 99;
 #invest-today-image {
   padding: 0px !important;
   margin: 0;
-  height: 500px;
+  min-height: 500px;
 }
+#invest-today-image img {
+  display: block;
+  margin: 0 auto;
+}
+
+
 
 #invest-today-image p {
   text-align: center;
@@ -377,6 +383,7 @@ z-index: 99;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    border-bottom: 1px solid #f1f1f1;
   }
 
   .home-link-style2 {
