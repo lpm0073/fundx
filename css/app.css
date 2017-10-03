@@ -1,3 +1,4 @@
+
 /*
 
 Logo colors
@@ -7,6 +8,67 @@ Logo colors
 #4E9D2D		eco green
 
  */
+
+ /* ----------------- Begin Insights Reports -------------------- */
+
+ div.insight-report {
+   margin-top: 20vh;
+   margin-left: 8%;
+   margin-right: 8%;
+ }
+
+ div.insight-report-foreward {
+ }
+ div.insight-report-foreward p {
+ }
+
+ div.insight-report-image img {
+   position: relative;
+   float: right;
+   margin-left: 50px;
+   margin-right: 25px;
+   width: 50%;
+ }
+
+ div.insight-report h2 {
+   margin-bottom: 50px;
+ }
+
+ div.insight-report h3 {
+   font-size: 2em;
+   margin-bottom: 5px;
+ }
+
+ div.insight-report p {
+   text-align: justify;
+   padding: 5px;
+ }
+
+ div.insight-report-publication-date {
+   margin-top: 20px;
+ }
+
+ div.insight-report-publication-date h6 {
+   color: #3586A2;
+   margin-left: 0px;
+   font-weight: lighter;
+ }
+
+ div.insight-report-publication-date span {
+   color: gray;
+   margin-top: 20px;
+   margin-left: 5px;
+   font-weight: lighter;
+ }
+
+ div.insight-report-legal {
+ }
+ div.insight-report-legal p {
+ }
+ /* ----------------- End Insights Reports -------------------- */
+
+
+/* ----------------- Begin Site wide adjustments -------------------- */
 
 a {
   text-transform: uppercase;
@@ -20,6 +82,8 @@ a {
 	margin: 10px;
     text-align: justify;
 }
+
+
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -61,6 +125,7 @@ a {
   border: 1px solid #eee;
 }
 
+/* ----------------- End Site wide adjustments -------------------- */
 
 /*-------------------- Logo positioning  -----------------------------------*/
 .x-brand {
@@ -227,14 +292,4 @@ a {
 	background: -o-linear-gradient(right, #4888AE, #006199); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(right, #4888AE, #006199); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to right, #4888AE , #006199); /* Standard syntax */
-
-/*
-  background: -webkit-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
-    background: -o-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#006199, endColorstr= #ffffff);
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColor=#006199, endColorStr= #ffffff);
-    background: -ms-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
-    background: -moz-linear-gradient(#006199, #00b4d2, #00b4d2, #ffffff, #ffffff);
-    background: linear-gradient(rgba(0, 97, 153, 1), rgba(0, 97, 153, .75), rgba(0, 97, 153, .5), rgba(0, 97, 153, .25), #F9F9F9);
-*/
 }
