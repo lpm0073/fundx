@@ -1,7 +1,12 @@
+/*----------------------------------------------------------------
+ * written by: mcdaniel
+ * date:      oct-2017
+ *
+ * usage: automate essential grid carousel slide on home page.
+ *----------------------------------------------------------------*/
 (function() {
 
- // change the number "3000" to however many seconds should pass before the Grid's page changes
- var interval = 5000, timer, mouseOn;
+ var interval = 10000, timer, mouseOn;
 
  jQuery('#home-news .esg-grid').on('mouseenter', function() {
 
