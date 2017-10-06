@@ -72,6 +72,11 @@ Logo colors
    padding: 5px;
  }
 
+ div.insight-report-body {
+   margin-right: 30%;
+ }
+
+
  div.insight-report-inner-title {
    font-family: "Montserrat",sans-serif;
    font-size: 1.5em;
