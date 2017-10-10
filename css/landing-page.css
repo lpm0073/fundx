@@ -1,3 +1,26 @@
+/*-------------------- Page overrides  -----------------------------------*/
+.container-fluid {
+  padding: 0px;
+}
+/*
+[class^="col-"] {
+  padding: 0px !important;
+}
+*/
+
+/* this is a hack to force bootstrap columns to maintain equal height */
+.row.match-column-height {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.row.match-column-height [class*="col-"]{
+  display: flex;
+  flex-direction: column;
+}
+
+/*-------------------- Page overrides  -----------------------------------*/
+
 .banner-background {
   height:75vh;
   margin: 0px !important;
@@ -126,28 +149,6 @@ div.homepage-news-box span {
     font: 16px/1 Arial sans-serif;        /* <-- reset the font property */
 }
 
-/*-------------------- Page overrides  -----------------------------------*/
-.container-fluid {
-  padding: 0px;
-}
-/*
-[class^="col-"] {
-  padding: 0px !important;
-}
-*/
-
-/* this is a hack to force bootstrap columns to maintain equal height */
-.row.match-column-height {
-  display: flex;
-  flex-wrap: wrap;
-  }
-
-.row.match-column-height [class*="col-"]{
-  display: flex;
-  flex-direction: column;
-}
-
-/*-------------------- Page overrides  -----------------------------------*/
 
 /*--------------------Menu & Header -----------------------------------*/
 
@@ -256,7 +257,7 @@ z-index: 99;
 
 #invest-today {
   background-color: #fafafa;
-  padding: 100px 0 100px 0;
+  padding: 15vh 0 15vh 0;
 }
 
 #invest-today h2 {
