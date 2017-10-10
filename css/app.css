@@ -37,6 +37,28 @@ Logo colors
    font-size: 3em;
  }
 
+ div.insight-report h3 {
+   color: #3586A2;
+   font-size: 1.5em;
+   margin-bottom: 5px;
+ }
+
+ div.insight-report h4 {
+   font-size: 1.25em;
+ }
+
+ div.insight-report p {
+   text-align: justify;
+ }
+
+ div.insight-report li {
+ }
+
+ div.insight-report-body li span {
+   font-weight: bolder;
+   text-decoration: underline;
+ }
+
  div.insight-report-image img {
    position: relative;
    float: right;
@@ -58,15 +80,6 @@ Logo colors
  }
 
 
- div.insight-report h3 {
-   color: #3586A2;
-   font-size: 1.5em;
-   margin-bottom: 5px;
- }
-
- div.insight-report p {
-   text-align: justify;
- }
 
  div.insight-report-body {
    margin-right: 30%;
@@ -101,6 +114,10 @@ Logo colors
  div.insight-report-legal {
  }
  div.insight-report-legal p {
+ }
+
+ .footnote {
+   font-style: italic;
  }
  /* ----------------- End Insights Reports -------------------- */
 
