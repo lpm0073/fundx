@@ -25,7 +25,8 @@
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  text-align: center;
+  text-align: left;
+  padding-left: 40px;
  }
 
 
@@ -292,7 +293,6 @@ text-align: left;
 }
 
 #panel2 img {
-  width: 500px;
   border: 1px solid #eee;
 }
 
