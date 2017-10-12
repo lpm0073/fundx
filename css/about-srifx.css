@@ -12,7 +12,8 @@
 }
 
 #banner {
-  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png");
+  /* background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/08/sub_banner.png"); */
+  background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -30,17 +31,9 @@
  }
 
 
-#banner-title h2 {
-  color: #006098;
-  font-size: 4em;
-  font-weight: 300;
-}
-
 #banner-title h3 {
-  color: #013878;
-  font-size: 3em;
-  font-weight: 500;
-  margin-top: 5px;
+  padding-top: 50px;
+  color:rgb(171,131,77);
 }
 
 
@@ -68,7 +61,7 @@
 }
 
 .panel1-inner-col {
-  min-height: 325px;
+  min-height: 442px;
   background-color: #fff;
 /*  border-bottom: 1px solid rgba(0, 0, 0, .05); */
   box-shadow: 0 1px 3px 1px #ddd;
@@ -79,16 +72,16 @@
 
 
 #panel1 h2 {
-letter-spacing: -0.01em;
-font-weight: 200;
-margin-top: 0;
-font-size: 4em;
-line-height: 60px;
-margin-bottom: 10px;
-text-align: left;
+  letter-spacing: -0.01em;
+  font-weight: 200;
+  margin-top: 0;
+  font-size: 4em;
+  line-height: 60px;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
-#panel1 h4, #panel1 p {
+#panel1 h4 {
   padding-left: 5% !important;
   padding-right: 5% !important;
 }
@@ -119,6 +112,9 @@ text-align: left;
   margin-bottom: 20px !important;
 }
 
+.panel1-inner-col-text {
+  padding: 10%;
+}
 
 /*------------------------- BEGIN: RESPONSIVE BEHAVIOR ---------------------------------*/
 
@@ -167,7 +163,7 @@ text-align: left;
   }
 
 
-  #invest-today {
+  #panel2-right {
     margin-top: 0px;
   }
 
@@ -264,10 +260,37 @@ text-align: left;
 
 
 #panel2 {
+  display: flex;
+  flex-wrap: wrap;
+
   padding: 1%;
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
+
+#panel2-left {
+}
+
+#panel2-left-thumbnails {
+  padding-top: 15px;
+}
+
+#panel2-left-thumbnails p {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1.3em;
+}
+#panel2-left-thumbnails a {
+  margin: 0;
+  padding: 0;
+}
+
+
+#panel2-right {
+}
+
+
 #panel2 h3 {
   color: #f1f1f1;
   margin-top: 25px !important;
@@ -278,22 +301,14 @@ text-align: left;
   text-align: center;
 }
 
-#panel2 p {
-  text-align: justify;
-  font-size: 1em;
-}
-
-
 
 #panel2-image {
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
 #panel2 img {
   border: 1px solid #eee;
+  width: 400px;
 }
 
 #panel2 img:hover {
@@ -307,34 +322,17 @@ text-align: left;
   margin-right: 10%;
 }
 
-.panel2-col {
-  margin-top: 25px;
-}
 
-.panel2-inner-col {
-  position: relative;
-  margin-left: 25px;
-  margin-right: 25px;
-  overflow: hidden;
-}
 
-.panel2-inner-col-left {
-}
-
-.panel2-inner-col-right {
-  position: relative;
-  /*
-  color: #08679F;;
-  background-color: rgba(234, 239, 242, .5);
-  border-radius: 15px;
-  */
-}
-
-.panel2-paragraph {
+#panel2-paragraph {
   color: white;
   width: 100%;
   margin: auto;
   margin-top: 50px;
+}
+
+#panel2-paragraph p {
+  font-size: 1.25em;
 }
 
 
