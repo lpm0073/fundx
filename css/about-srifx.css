@@ -22,27 +22,6 @@
   width: 100%;
 }
 
-#banner-title {
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  text-align: left;
-  padding-left: 40px;
- }
-
-
-#banner-title h3 {
-  padding-top: 50px;
-  color:rgb(171,131,77);
-}
-
-
-#banner-title p {
-  color: #013878;
-  font-size: 1.5em;
-  font-weight: 300;
-}
-
 
 
 /*----------------------------------------------------------*/
