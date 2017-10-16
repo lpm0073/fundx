@@ -3,7 +3,7 @@
 
 Logo colors
 ============================
-#3586A2		aqua marine
+#3586A2		aqua marine / teal
 #013878		dark blue
 #4E9D2D		eco green
 
@@ -346,4 +346,12 @@ a {
 	background: -o-linear-gradient(right, #4888AE, #006199); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(right, #4888AE, #006199); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to right, #4888AE , #006199); /* Standard syntax */
+}
+
+.gradient-teal {
+	background: #3586A2; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, rgba(53, 134, 162, .85) , rgba(53, 134, 162, 1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, rgba(53, 134, 162, .85), rgba(53, 134, 162, 1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, rgba(53, 134, 162, .85), rgba(53, 134, 162, 1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, rgba(53, 134, 162, .85) , rgba(53, 134, 162, 1)); /* Standard syntax */
 }
