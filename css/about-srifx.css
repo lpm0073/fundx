@@ -60,11 +60,6 @@
   text-align: left;
 }
 
-#panel1 h4 {
-  padding-left: 5% !important;
-  padding-right: 5% !important;
-}
-
 #panel1 h3 {
     font-size: 2.25em !important;
     font-weight: 200 !important;
@@ -74,12 +69,14 @@
 }
 
 #panel1 h4 {
+  font-size: 24px;
+  font-weight: 600;
   text-align: center !important;
   margin-top: 2.5%;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
   padding-top: 2.5%;
   margin-bottom: 5%;
-  font-weight: 600;
-  font-size: 1.5em;
 }
 
 #panel1 p {
@@ -254,6 +251,10 @@
   padding-top: 15px;
 }
 
+#panel2-left-thumbnails img {
+  width: 150px;
+}
+
 #panel2-left-thumbnails p {
   color: white;
   text-align: center;
@@ -282,12 +283,14 @@
 
 
 #panel2-image {
+  width: 400px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #panel2 img {
   border: 1px solid #eee;
-  width: 400px;
 }
 
 #panel2 img:hover {

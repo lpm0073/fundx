@@ -184,6 +184,10 @@ z-index: 99;
 
 /*--------------------Menu & Header -----------------------------------*/
 
+#fish-panels {
+  max-width: 1500px;
+}
+
 #fish-bowl {
   margin-top: 50px;
 }
