@@ -124,6 +124,10 @@ Logo colors
 
 /* ----------------- Begin Site wide adjustments -------------------- */
 
+.x-nav-wrap.desktop {
+  padding-right: 30px;
+}
+
 a {
   text-transform: uppercase;
 }
