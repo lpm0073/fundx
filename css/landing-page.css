@@ -233,10 +233,11 @@ z-index: 99;
   color: #3489A1;
   font-size: 1.25em;
   text-decoration: underline;
+  font-weight: 600;
 }
 
 .fundx-panel a:hover {
-  font-weight: 500;
+  font-weight: 800;
 }
 
 #panel1 {
@@ -291,10 +292,6 @@ z-index: 99;
   font-weight: 500;
 }
 
-#invest-today-text {
-  text-align: center;
-  padding: 0 15% 0px 15%;
-}
 
 #invest-today-link {
   margin-top: 50px;
@@ -314,6 +311,16 @@ z-index: 99;
 #invest-today-image p {
   text-align: center;
   margin: auto;
+}
+
+#invest-today-text {
+  text-align: center;
+  padding: 0 15% 0px 15%;
+}
+
+#invest-today-text button {
+  background-color: #3586A2;
+  border-color: #3586A2;
 }
 
 /*-------------- End: Invest today for a better tomorrow -------------------*/
