@@ -249,6 +249,22 @@
 #panel2-left {
 }
 
+
+#panel2-left p {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1.3em;
+}
+#panel2-left a {
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+
 #panel2-left-thumbnails {
   padding-top: 15px;
 }
@@ -263,17 +279,6 @@
   border: 3px solid #fff;
 }
 
-
-#panel2-left-thumbnails p {
-  color: white;
-  text-align: center;
-  margin-bottom: 0;
-  font-size: 1.3em;
-}
-#panel2-left-thumbnails a {
-  margin: 0;
-  padding: 0;
-}
 
 
 #panel2-right {
@@ -308,15 +313,16 @@
 
 
 
-#panel2-paragraph {
+.panel2-paragraph div {
   color: white;
   width: 100%;
   margin: auto;
   margin-top: 50px;
 }
 
-#panel2-paragraph p {
+.panel2-paragraph p {
   font-size: 1.25em;
+  color: white;
 }
 
 
