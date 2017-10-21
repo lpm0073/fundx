@@ -253,7 +253,14 @@
 
 #panel2-left-thumbnails img {
   width: 150px;
+  border: 1px solid #eee;
 }
+
+#panel2-left-thumbnails img:hover {
+  box-shadow: 0 1px 7px 1px #ccc;
+  border: 3px solid #fff;
+}
+
 
 #panel2-left-thumbnails p {
   color: white;
@@ -289,14 +296,6 @@
   margin-right: auto;
 }
 
-#panel2 img {
-  border: 1px solid #eee;
-}
-
-#panel2 img:hover {
-  box-shadow: 0 1px 7px 1px #ccc;
-  border: 3px solid #fff;
-}
 
 #panel2 button {
   width: 80%;
