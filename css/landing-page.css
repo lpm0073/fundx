@@ -1,3 +1,36 @@
+.banner-title {
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.banner-subtitle h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4E9D2D;  /* eco green */
+  padding-top: 0vh;
+  margin: 0;
+  font-size: 3.5em;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.banner-subtitle img {
+  padding-top: 27.5vh;
+  width: 6%;
+}
+
+.jump-into {
+  margin: 9vh 0 0 0;
+  font-size: 1.5em;
+
+}
+
+.sustainable-investing {
+  font-size: 3em;
+  font-weight: 400;
+  margin: 0 0 0 0;
+}
+
 /*-------------------- Page overrides  -----------------------------------*/
 .container-fluid {
   padding: 0px;
@@ -22,19 +55,14 @@
 /*-------------------- Page overrides  -----------------------------------*/
 
 .banner-background {
-  height:75vh;
   margin: 0px !important;
   padding: 0px !important;
 
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 255, 0.20),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/09/GettyImages-143287489.jpg");
+  background-image: url("http://fundx.lawrencemcdaniel.com/wp-content/uploads/2017/10/fundx-header_image.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  height: 75vh;
 }
 
 .banner-content {
@@ -46,66 +74,6 @@
   color:#f1f1f1;
 }
 
-.banner-title {
-  color: inherit;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  margin-left: inherit;
-  margin-right: inherit;
-  text-align: inherit;
-}
-
-.banner-title h1 span {
-  color: inherit;
-  font-size: .4em;
-  font-weight: 400;
-  font-family: "Times New Roman", Georgia, Serif;
-  text-shadow: 2px 2px 4px #555;
-
-}
-
-.banner-title h1 {
-  color: inherit;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 7.5em;
-  font-weight: 700;
-  margin-top: 9vh;
-  margin-bottom: 0;
-}
-
-.banner-subtitle {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  margin-bottom: 7.5vh;
-  margin-left: inherit;
-  margin-right: inherit;
-  text-align: inherit;
-}
-
-.banner-subtitle p {
-  font-family: "Times New Roman", Georgia, Serif;
-  color: inherit;
-  text-align: center;
-  font-size: 3em;
-  margin-bottom: 0;
-}
-
-.banner-subtitle h3 {
-  color: white;
-  font-size: 3em;
-  font-weight: 500;
-  background-color: #4E9D2D;
-  border-radius: 10px;
-  padding: 15px;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 
 
@@ -330,39 +298,16 @@ z-index: 99;
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-  .banner-title h1 {
-    font-size: 6em;
-  }
-  .banner-subtitle h3 {
-    font-size: 1.5em;
-  }
-
-
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
-  .banner-title h1 {
-    font-size: 4.5em;
-    margin-top: 15vh;
-  }
-  .banner-subtitle h3 {
-    font-size: 1.5em;
-  }
 
 
 }
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
 
-  .banner-title h1 {
-    font-size: 3em;
-    margin-top: 15vh;
-  }
-  .banner-subtitle h3 {
-    font-size: 1.5em;
-  }
 
   .banner-background {
     background-position: left center;
@@ -410,13 +355,6 @@ z-index: 99;
 
 /********** Super small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-
-  .banner-title h1 {
-    font-size: 2em;
-  }
-  .banner-subtitle h3 {
-    font-size: 1.5em;
-  }
 
 
 }
