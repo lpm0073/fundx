@@ -6,21 +6,6 @@
 
 }
 
-.banner-subtitle h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #4E9D2D;  /* eco green */
-  padding-top: 0vh;
-  margin: 0;
-  font-size: 4.75em;
-  margin-top: 8px;
-  margin-bottom: 0;
-  font-weight: 400;
-}
-.banner-subtitle img {
-  padding-top: 22vh;
-  width: 7%;
-}
-
 .jump-into {
   margin: 7vh 0 0 0;
   font-size: 2.5em;
@@ -30,9 +15,34 @@
 .sustainable-investing {
   font-size: 6.5em;
   font-weight: 400;
-  margin: 0 0 0 0;
+  margin: -20px 0 0 0;
   height: auto;
+  line-height: normal;
 }
+
+
+.banner-subtitle {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.banner-subtitle h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4E9D2D;  /* eco green */
+  font-size: 4.75em;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-subtitle img {
+  width: 7%;
+}
+
 
 /*-------------------- Page overrides  -----------------------------------*/
 .container-fluid {
@@ -75,6 +85,7 @@
   margin-right: auto;
   text-align: center;
   color:#f1f1f1;
+  border: 1px dashed red;
 }
 
 
