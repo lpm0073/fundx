@@ -10,6 +10,16 @@ Logo colors
  */
 
  /* ----------------- Begin Insights Reports -------------------- */
+.page-title h2 {
+  color:rgb(171,131,77);
+  font-size:1.25em;
+}
+
+.page-title p {
+  font-size: 1.3em; 
+  font-weight: 300;
+}
+
 
  div.insight-report {
    margin-top: 20vh;

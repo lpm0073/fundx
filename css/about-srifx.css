@@ -30,7 +30,6 @@
   margin-left: 0px;
   margin-right: 0px;
   padding: 25px;
-  background-color: rgba(0,0,0, 0.02);
   min-height: inherit !important;
   height: inherit !important
 }
@@ -40,12 +39,11 @@
 }
 
 .panel1-inner-col {
-  min-height: 350px;
+  min-height: 450px;
   background-color: #fff;
-/*  border-bottom: 1px solid rgba(0, 0, 0, .05); */
   box-shadow: 0 1px 3px 1px #ddd;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
   overflow: hidden;
 }
 
@@ -79,19 +77,14 @@
   margin-bottom: 5%;
 }
 
-#panel1 p {
-  margin: 0 0 10px !important;
-  line-height: 1.42857143 !important;
-  text-align: justify !important;
-  font-size: 1.3em;
-  font-weight: 300;
-  margin-bottom: 20px !important;
-}
 
 .panel1-inner-col-text {
   padding-bottom: 10%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify !important;
+  font-size: 1.3em;
+  font-weight: 300;
 }
 
 /*------------------------- BEGIN: RESPONSIVE BEHAVIOR ---------------------------------*/
@@ -198,10 +191,9 @@
 }
 
 #invest-table {
-  margin-top: 50px;
+  margin-top: 0px;
   color: white;
   padding: 15px;
-/*  background-color: white; */
   border-radius: 2px;
 }
 
@@ -317,7 +309,7 @@
   color: white;
   width: 100%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .panel2-paragraph p {
