@@ -6,17 +6,18 @@ Logo colors
 #3586A2		aqua marine / teal
 #013878		dark blue
 #4E9D2D		eco green
-
+rgb(171,131,77)  gold page titles (old)
  */
 
  /* ----------------- Begin Insights Reports -------------------- */
 .page-title h2 {
-  color:rgb(171,131,77);
+  color:#4E9D2D;
   font-size:1.25em;
+  font-weight: normal;
 }
 
 .page-title p {
-  font-size: 1.3em; 
+  font-size: 1.3em;
   font-weight: 300;
 }
 
