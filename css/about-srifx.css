@@ -1,3 +1,11 @@
+.col-md-4 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.col-md-6 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
 #panel3 img {
   max-width:67%;
@@ -29,7 +37,8 @@
 #panel1  {
   margin-left: 0px;
   margin-right: 0px;
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   min-height: inherit !important;
   height: inherit !important
 }
@@ -39,7 +48,7 @@
 }
 
 .panel1-inner-col {
-  height: 50vh;
+  height: 625px;
   background-color: #fff;
   box-shadow: 0 1px 3px 1px #ddd;
   margin-left: 12px;
@@ -47,6 +56,14 @@
   overflow: hidden;
 }
 
+.panel1-inner-col img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
 
 #panel1 h2 {
   letter-spacing: -0.01em;
