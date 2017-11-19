@@ -1,0 +1,16 @@
+.contact-box {
+  border: 1px solid hsla(0, 0%, 33%, 0.15);
+  height: 225px;
+  padding: 15px;
+}
+
+.contact-box h4 {
+  margin-top: 0px;
+  color: #013878;
+  font-size: 24px;
+  font-weight: 600;
+  }
+
+.contact-box address {
+  font-size: 1.3em;
+}
