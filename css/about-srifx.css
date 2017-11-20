@@ -57,7 +57,7 @@
 .panel-inner-col {
   height: 625px;
   background-color: #fff;
-  box-shadow: 0 1px 3px 1px #ddd;
+  border: 1px solid hsla(0, 0%, 33%, 0.15);
   margin-left: 12px;
   margin-right: 12px;
   overflow: hidden;

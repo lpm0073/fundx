@@ -1,6 +1,6 @@
 .contact-box {
   height: 225px;
-  box-shadow: 0 1px 3px 1px #ddd;
+  border: 1px solid hsla(0, 0%, 33%, 0.15);
 }
 
 .contact-box h4 {
