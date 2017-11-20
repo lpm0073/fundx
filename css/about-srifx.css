@@ -34,7 +34,7 @@
 
 /*----------------------------------------------------------*/
 
-#panel1  {
+#panels  {
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 25px;
@@ -43,11 +43,18 @@
   height: inherit !important
 }
 
+#panel1-left {
+}
+#panel1-middle {
+}
+#panel1-right {
+}
+
 .panel1-col {
   margin-top: 15px !important;
 }
 
-.panel1-inner-col {
+.panel-inner-col {
   height: 625px;
   background-color: #fff;
   box-shadow: 0 1px 3px 1px #ddd;
@@ -56,7 +63,7 @@
   overflow: hidden;
 }
 
-.panel1-inner-col img {
+.panel-inner-col img {
   width: 100%;
   margin: auto;
   text-align: center;
@@ -65,25 +72,8 @@
   padding-right: 35%;
 }
 
-#panel1 h2 {
-  letter-spacing: -0.01em;
-  font-weight: 200;
-  margin-top: 0;
-  font-size: 4em;
-  line-height: 60px;
-  margin-bottom: 10px;
-  text-align: left;
-}
 
-#panel1 h3 {
-    font-size: 2.25em !important;
-    font-weight: 200 !important;
-    letter-spacing: 0px !important;
-    text-align: justify !important;
-    margin-bottom: 0px !important;
-}
-
-#panel1 h4 {
+#panels h4 {
   font-size: 24px;
   font-weight: 600;
   text-align: center !important;
@@ -95,7 +85,7 @@
 }
 
 
-.panel1-inner-col-text {
+.panel-inner-col-text {
   padding-bottom: 10%;
   padding-left: 20px;
   padding-right: 20px;
@@ -133,7 +123,7 @@
     height: inherit !important;
   }
 
-  .panel1-inner-col {
+  .panel-inner-col {
     height: 325px !important;
     min-height: inherit !important;
   }
@@ -154,7 +144,7 @@
     margin-top: 0px;
   }
 
-  .panel1-inner-col {
+  .panel-inner-col {
     height: 325 !important;
   }
 
@@ -173,7 +163,7 @@
     font-size: 2em !important;
   }
 
-  #panel1  {
+  #panels  {
     padding: 10px !important;
   }
 
