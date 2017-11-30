@@ -1,36 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-
 .banner-title {
-
-  font-family: "Crimson Text", serif;
-
-}
-
-.jump-into {
-  margin: 7vh 0 0 0;
-  font-size: 2.5em;
-
-}
-
-.sustainable-investing {
-  font-size: 6.5em;
-  font-weight: 400;
-  margin: -20px 0 0 0;
-  height: auto;
-  line-height: normal;
-}
-
-
-.banner-subtitle {
   position: absolute;
-  bottom: 0;
+  top: 25px;
   text-align: center;
   width: 100%;
 }
 
-.banner-subtitle h1 {
+.banner-title h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #4E9D2D;  /* eco green */
+  color: white;
   font-size: 4.75em;
   font-weight: 400;
   margin-top: 12px;
@@ -39,7 +16,7 @@
   margin-right: auto;
 }
 
-.banner-subtitle img {
+.banner-title img {
   width: 7%;
 }
 
