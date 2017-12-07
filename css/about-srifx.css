@@ -202,8 +202,8 @@
 
 #panel2 h3 {
   color: #f1f1f1;
-  margin-top: 25px !important;
-  margin-bottom: 25px !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding-left: 0px !important;
   font-size: 36px;
   font-weight: 400;
@@ -291,6 +291,12 @@
       margin-top: 0px;
     }
 
+    #panel2-right h3 {
+      visibility: hidden !important;
+      height: 0px !important;
+      margin: 0px !important;
+    }
+
     #panels h4 {
         font-size: 30px !important;
     }
@@ -303,6 +309,11 @@
       padding-left: 0px;
       padding-right: 0px;
       width: 100%;
+    }
+
+    #panel2-left p {
+      visibility: hidden !important;
+      height: 0 !important;
     }
 
     #panel2-left-thumbnails {
