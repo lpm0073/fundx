@@ -1,3 +1,13 @@
+
+#srifx-3column {
+  margin: 15px 0px 5px;
+  padding: 15px 50px 5px;
+}
+
+#srifx-page-title-paragraph {
+  padding: 0px 0px 50px;
+}
+
 .col-md-4 {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -91,98 +101,6 @@
   font-size: 1.3em;
   font-weight: 300;
 }
-
-/*------------------------- BEGIN: RESPONSIVE BEHAVIOR ---------------------------------*/
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
-  #banner {
-    height: 300px !important;
-  }
-
-  #banner h2 {
-    font-size: 4em !important;
-  }
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-  #banner {
-    height: 250px !important;
-  }
-
-  #banner h2 {
-    font-size: 3em !important;
-  }
-
-  .panel1-col {
-    height: inherit !important;
-  }
-
-  .panel-inner-col {
-    height: 325px !important;
-    min-height: inherit !important;
-  }
-
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
-
-  #panel2 img {
-    width: 75% !important;
-  }
-
-
-  #panel2-right {
-    margin-top: 0px;
-  }
-
-  .panel-inner-col {
-    height: 325 !important;
-  }
-
-
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-  #banner {
-    height: 200px !important;
-  }
-
-  #banner h2 {
-    font-size: 2em !important;
-  }
-
-  #panels  {
-    padding: 10px !important;
-  }
-
-
-  #invest-today {
-    margin-top: 0px;
-  }
-
-
-
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-
-}
-/*------------------------- END: RESPONSIVE BEHAVIOR ---------------------------------*/
-
 
 /*------------------------- BEGIN: PANEL 2 ---------------------------------*/
 .col-1 {
@@ -324,3 +242,137 @@
 
 
 /*------------------------- END: PANEL 2 ---------------------------------*/
+
+/*------------------------- BEGIN: RESPONSIVE BEHAVIOR ---------------------------------*/
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #banner {
+    height: 300px !important;
+  }
+
+  #banner h2 {
+    font-size: 4em !important;
+  }
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #banner {
+    height: 250px !important;
+  }
+
+  #banner h2 {
+    font-size: 3em !important;
+  }
+
+  .panel1-col {
+    height: inherit !important;
+  }
+
+  .panel-inner-col {
+    height: 325px !important;
+    min-height: inherit !important;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+    #panel2 img {
+      width: 75% !important;
+      display: block !important;
+      margin: auto !important;
+    }
+
+    #panel2-right {
+      margin-top: 0px;
+    }
+
+    #panels h4 {
+        font-size: 30px !important;
+    }
+
+    #panel2-image {
+        width: 100%;
+    }
+
+    #panel2-left {
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 100%;
+    }
+
+    #panel2-left-thumbnails {
+      visibility: hidden !important;
+      height: 0px !important;
+    }
+
+    #invest-table {
+      visibility: hidden !important;
+      height: 0px !important;
+    }
+
+    .panel-inner-col {
+      height: 325 !important;
+    }
+
+    #srifx-3column {
+      padding: 15px 15px 5px !important;
+    }
+    #srifx-page-title-paragraph {
+      padding: 0px 0px 0px !important;
+    }
+
+    .page-title {
+      padding: 0px 15px 5px !important;
+    }
+    .page-title h2 {
+      text-align: center !important;
+    }
+
+    .panel-inner-col-text {
+        margin-top: 50px !important;
+        padding-bottom: 0% !important;
+        font-size: 1em !important;
+        text-align: justify !important;
+    }
+
+    .panel-inner-col img {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    h2.h-custom-headline.h3 {
+      margin-top: 0px !important;
+    }
+
+    h2 {
+      margin-top: 0px !important;
+    }
+
+}
+
+/********** Super small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  #banner {
+    height: 200px !important;
+  }
+
+  #banner h2 {
+    font-size: 2em !important;
+  }
+
+  #panels  {
+    padding: 10px !important;
+  }
+
+
+  #invest-today {
+    margin-top: 0px;
+  }
+
+
+}
