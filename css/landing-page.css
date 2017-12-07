@@ -289,11 +289,26 @@ z-index: 99;
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
+  .banner-title h1 {
+      font-size: 4em;
+  }
+
+  .banner-title img {
+      width: 10%;
+  }
+
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
+  .banner-title h1 {
+      font-size: 3.5em;
+  }
+
+  .banner-title img {
+      width: 12.5%;
+  }
 
 }
 /********** Extra small devices only **********/
@@ -312,6 +327,8 @@ z-index: 99;
   }
 
   .fundx-panel h2 {
+    font-size: 2em !important;
+    line-height: normal;
     font-size: 3em;
     margin-left: auto;
     margin-right: auto;
@@ -340,12 +357,40 @@ z-index: 99;
     border-bottom: 1px solid #f1f1f1;
   }
 
+  #invest-today p {
+      text-align: justify;
+      padding-left: 0%;
+      padding-right: 0%;
+  }
+
+  .banner-title h1 {
+      font-size: 4em;
+  }
+
+  .banner-title img {
+      width: 15%;
+  }
+
+  .fundx-panel {
+    padding: 0px 15px 0px 15px !important;
+  }
 
 
 }
 
 /********** Super small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+  .banner-title {
+    top: 15px !important;
+  }
 
+  .banner-title h1 {
+      font-size: 3.5em;
+      margin-top: 5px !important;
+  }
+
+  .banner-title img {
+      width: 20%;
+  }
 
 }
