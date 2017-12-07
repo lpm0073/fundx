@@ -1,3 +1,11 @@
+#srifx-contact-container {
+  margin: 15px 0px 5px;
+  padding: 15px 50px 5px 50px;
+}
+
+.srifx-contact {
+
+}
 .contact-box {
   height: 225px;
   border: 1px solid hsla(0, 0%, 33%, 0.15);
@@ -20,4 +28,51 @@
   padding-left: 15%;
   padding-right: 5%;
   text-align: center;
+}
+
+
+/*------------------------- BEGIN: RESPONSIVE BEHAVIOR ---------------------------------*/
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #srifx-contact-container {
+    padding: 5px 15px 5px 15px;
+  }
+
+  .srifx-contact {
+    padding-bottom: 25px;
+  }
+
+  .page-title {
+    padding: 0px 15px 5px !important;
+  }
+  .page-title h2 {
+    text-align: center !important;
+  }
+
+  h2.h-custom-headline.h3 {
+    margin-top: 0px !important;
+  }
+
+  h2 {
+    margin-top: 0px !important;
+  }
+
+
+
+}
+
+/********** Super small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+
 }

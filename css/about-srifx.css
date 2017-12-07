@@ -340,6 +340,12 @@
         text-align: justify !important;
     }
 
+    .panel-inner-col {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 10px !important;
+    }
+
     .panel-inner-col img {
         margin-top: 30px;
         margin-bottom: 25px;
@@ -366,7 +372,7 @@
   }
 
   #panels  {
-    padding: 10px !important;
+    padding: 0px !important;
   }
 
 
